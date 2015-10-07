@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>WP Nav Plus Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">WP Nav Plus v2.2 Documentation by Matt Keys</h3>
+		
+		<hr>
+		
+		<h1 class="center">WP Nav Plus</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 06/10/2013<br>
+					By: Matt Keys<br>
+					Email: <a href="mailto:me@mattkeys.me">me@mattkeys.me</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my plugin. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/mattkeys">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#overview">Overview</a></li>
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#basic_usage">Basic Usage</a></li>
+			<li><a href="#widget_options">Widget Options</a></li>
+			<li><a href="#multiple_widgets">Using Multiple Widgets</a></li>
+			<li><a href="#developers">Advanced Functionality for Developers</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="overview"><strong>A) Overview</strong> - <a href="#toc">top</a></h3>
+		<p>WP Nav Plus has been designed as an easy and flexible way to implement side navigation menus and split menus in Wordpress. This documentation will cover two different methods for using this plugin, depending on your needs and you skill level (Novice or Advanced).</p>
+
+		<hr>
+		
+		<h3 id="installation"><strong>B) Installation</strong> - <a href="#toc">top</a></h3>
+		<p>To install WP Nav Plus:</p>
+		
+		<ol>
+			<li>Login to your Wordpress Admin page (usually http://yourdomain.com/wp-admin)</li>
+			<li>Navigate to the Plugins screen and then click the "Add New" button</li>
+			<li>Click on the "Upload" link near the top of the page and browse for the WP Nav Plus zip file</li>
+			<li>Upload the file, and click "Activate Plugin" after the installation completes</li>
+			<li>Congratulations, installation is complete!</li>
+		</ol>
+
+		<hr>
+
+		<h3 id="basic_usage"><strong>C) Basic Usage (widget)</strong> - <a href="#toc">top</a></h3>
+
+		<p>The easiest way to get up and running <em>quickly</em> with WP Nav Plus is to make use of the widget. In this section I will show you how to implement a basic WP Nav Plus widget on your site.</p> 
+
+		<ol>
+			<li>Login to your Wordpress Admin page (usually http://yourdomain.com/wp-admin)</li>
+			<li>Navigate to the Widgets screen (Under "Appearance")</li>
+			<li>Notice the new widget called "WP Nav Plus" (pictured below)<br />
+			<img src="assets/images/wp_nav_plus_inactive_widget.png" alt="WP Nav Plus Inactive Widget" /></li>
+			<li>Click and drag this widget into the desired sidebar placement (pictured below). NOTE: My sidebar is called "Primary Sidebar", your sidebar may be named differently. Please see your theme documentation for additional details about your sidebars.<br />
+			<img src="assets/images/wp_nav_plus_active_widget.png" alt="WP Nav Plus Active Widget" /></li>
+			<li>Congratulations, your widget has been successfully installed!</li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="widget_options"><strong>D) Widget Options</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Now that your WP Nav Plus menu has been placed into the desired Sidebar, there are some optional settings that we can configure:</p>
+		
+		<ol>
+			<li><strong>Title (optional)</strong>: Enter any text here to show a title above your Menu</li>
+			<li><strong>Menu Name</strong>: Select the menu you would like to show links from</li>
+			<li><strong>Start Depth</strong>: A setting of 0 will show the whole menu. A setting of 1 will remove the first level menu items. A setting of 2 will remove the first and second level menu items, and so on. Feel free to play with this option and observe the results.</li>
+			<li><strong>Depth</strong>: A setting of 0 will show ALL submenu pages. A setting of 1 will show one level of sub menu pages (children pages). A setting of 2 will show two levels of sub menu (children) pages, and so on. Feel free to play with this option and observe the results.</li>
+		</ol>
+		  
+		<hr>
+		
+		<h3 id="multiple_widgets"><strong>E) Using Multiple Widgets</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Experiment with using two WP Nav Menu widgets together to provide greater control over your menu.</p>
+		<p>In the screenshots below, the first widget (menu 1) is being used to display a sub menu showing all of the sub menu items of the current page. (Note the Start Depth of 1)</p>
+		<p>The second widget (menu 2) is being used to display a separate menu showing an extra level "deeper" in the menu (Note the Start Depth of 2). Test Page A and Test Page B are children of the "Careers" menu item in this example.</p>
+		
+		<img src="assets/images/wp_nav_plus_multiple_widgets.png" alt="WP Nav Plus Multiple Widgets" />
+		<img src="assets/images/wp_nav_plus_multiple_widgets_output.png" alt="WP Nav Plus Multiple Widgets" />
+		
+		<hr>
+		
+		<h3 id="developers"><strong>F) Advanced Functionality for Developers</strong> - <a href="#toc">top</a></h3>
+		
+		<p>WP Nav Menu has been designed from the ground up to be useful for Wordpress Developers and Advanced Wordpress users.</p>
+		<p>The documentation above has focused on using the WP Nav Plus widget as the easiest way to get started with WP Nav Plus. However for advanced users who want more control over the output of their menu, the widget can be skipped, and instead the WP Nav Plus function can be used directly in your templates.</p>
+		
+		<p>WP Nav Plus is built upon the power of the built in wp_nav_menu function included with wordpress. This function is used in modern Wordpress templates to display navigation menus. With just a couple of tweaks these wp_nav_menu functions can be transformed into WP Nav Menu functions. See below for some examples:</p>
+		
+		<p>Replace functions like this:</p>
+		<pre>
+		wp_nav_menu(array('theme_location' => 'my_menu', 'depth' => 1));
+		</pre>
+		
+		<p>With functions like this:</p>
+		<pre>
+		wp_nav_plus(array('theme_location' => 'my_menu', 'start_depth' => 1, 'depth' => 1));
+		</pre>
+		
+		<p>When implemented this way, WP Nav Plus is designed to accept any argument that you might normally use with wp_nav_menu. See the Wordpress Codex for a complete list of wp_nav_menu functionality: <a href="http://codex.wordpress.org/Function_Reference/wp_nav_menu">http://codex.wordpress.org/Function_Reference/wp_nav_menu</a>.</p>
+		
+		
+		<p class="append-bottom alt large"><strong>Enjoy your plugin and thank you for your purchase!</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
