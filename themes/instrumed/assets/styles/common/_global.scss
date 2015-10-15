@@ -224,6 +224,9 @@ header#navheader{
               color:$primary;
               &:hover{background: lighten($primary,45);}
             }
+            &.active>a, &.active>a:focus, &.active>a:hover{
+              background:#E8E8E8;
+            }
           }
         }
         .caret{
@@ -484,10 +487,7 @@ table.image_grid{
       right: 0;
       bottom:-100%;
       margin: auto;
-    }
-  }
-  td{
-    img{
+
       @include transition(3s transform);
       transform: scale(1,1);
       //&:hover,&.zoom{
@@ -504,7 +504,8 @@ table.image_grid{
     }
   }
   @media (max-width: 768px) {
-    td{width:33%}
+    td{width:100%;display:block}
+    td.message{padding-top:20px;}
   }
 }
 .jumbotron{
@@ -586,11 +587,14 @@ table.image_grid{
   margin-bottom:55px;
   padding:25px 0px;
   .container{padding:0 60px;}
+  @media(max-width: 768px){
+    .container{padding:0 20px;}
+  }
   h3{
     margin:0;
     font-weight:300;
     padding-top:10px;
-    font-family:"Raleway";
+    font-family:"RalewayRegular";
   }
   .btn{
     font-size:18px;

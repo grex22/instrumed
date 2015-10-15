@@ -28,19 +28,19 @@ use Roots\Sage\Wrapper;
           <tbody>
           <tr>
             <td class="hidden-xs ig_animated"><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_1_1.png')"></div></td>
-            <td colspan="2"><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_1_2.png')"></div></td>
+            <td class="ig_xs" colspan="2"><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_1_2.png')"></div></td>
             <td class="hidden-xs"><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_1_3.png')"></div></td>
             <td class="hidden-xs hidden-sm" rowspan="2"><div class="rowspan" style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_1_4.png')"></div></td>
           </tr>
           <tr>
             <td class="hidden-xs"><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_2_1.png')"></div></td>
-            <td colspan=2 class="message"><h1>Quality. Precision. Reliability.</h1></td>
+            <td colspan=2 class="message ig_xs"><h1>Quality. Precision. Reliability.</h1></td>
             <td class="hidden-xs"><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_2_2.png')"></div></td>
           </tr>
           <tr>
             <td class="hidden-xs"><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_3_1.png')"></div></td>
             <td class="hidden-xs"><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_3_2.png')"></div></td>
-            <td colspan=2><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_3_3.png')"></div></td>
+            <td class="ig_xs" colspan=2><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_3_3.png')"></div></td>
             <td class="hidden-xs hidden-sm"><div style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/imagegrid/ig_3_4.png')"></div></td>
           </tr>
           </tbody>
