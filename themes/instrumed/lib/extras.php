@@ -31,3 +31,21 @@ function excerpt_more() {
   return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
 }
 add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
+
+
+
+add_filter('tiny_mce_before_init', 'oi_tinymce');
+function oi_tinymce($settings) {
+	$new_styles = array(
+		array(
+			'title' => 'None',
+			'value'	=> ''
+		),
+		array(
+			'title'	=> 'Table',
+			'value'	=> 'table',
+		),
+	);
+	$settings['table_class_list'] = json_encode( $new_styles );
+	return $settings;
+}
