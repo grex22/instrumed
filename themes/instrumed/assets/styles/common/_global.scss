@@ -552,7 +552,7 @@ table.image_grid{
   }
 }
 
-#main, .content-section{
+#main, .content-section, .contentblock{
   margin-top:20px;
   img{
     max-width:100%;
@@ -561,6 +561,10 @@ table.image_grid{
     margin-bottom:1.05em;
   }
   h1,h2{font-weight:lighter;}
+  table.table{margin-bottom:30px;}
+  table.table.table-columnify{
+    td,th{width:20%}
+  }
 }
 #three_features{
   

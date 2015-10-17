@@ -34,18 +34,18 @@ add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
 
 
 
-add_filter('tiny_mce_before_init', 'oi_tinymce');
-function oi_tinymce($settings) {
+function more_table_classes_tinymce($settings) {
 	$new_styles = array(
 		array(
 			'title' => 'None',
-			'value'	=> ''
+			'value'	=> 'table table-columnify'
 		),
 		array(
-			'title'	=> 'Table',
-			'value'	=> 'table',
+			'title'	=> 'Hover Table',
+			'value'	=> 'table table-hover table-columnify',
 		),
 	);
 	$settings['table_class_list'] = json_encode( $new_styles );
 	return $settings;
 }
+add_filter('tiny_mce_before_init', __NAMESPACE__ . '\\more_table_classes_tinymce');
