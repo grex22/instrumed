@@ -53,7 +53,7 @@ use Roots\Sage\Wrapper;
           <h3>Contract Manufacturing for the Medical Device Industry</h3>
         </div>
         <div class="col-sm-4 text-right">
-          <a class="btn btn-primary" href="#">Learn More</a>
+          <a class="btn btn-primary" href="<?php echo get_permalink(17); ?>">Request a Quote</a>
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@ use Roots\Sage\Wrapper;
           <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature1.png"></a>
           <h4>Precision Manufacturing</h4>
           <p>Gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor quantas ipsum dolor sit amet, conset</p>
-          <a href="#">Our Process...</a>
+          <a href="<?php echo get_permalink(118); ?>">Our Process...</a>
         </div>
         <div class="col-sm-4 features">
           <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature2.png"></a>
@@ -75,7 +75,7 @@ use Roots\Sage\Wrapper;
           <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature3.png"></a>
           <h4>Industry Certifications</h4>
           <p>Gubergren, no sea takimata ipsum dolor quantas sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, conset</p>
-          <a href="#">Lorem Ipsum Dolor Quantas...</a>
+          <a href="#">Our Industry Certifications...</a>
         </div>
       </div>
     </div>
@@ -86,9 +86,9 @@ use Roots\Sage\Wrapper;
             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/machine-1.jpg">
           </div>
           <div class="col-md-6 content align-help">
-            <h2>Enterprise-grade Manufacturing Process, Lorem Ipsum Quantas</h2>
+            <h2>Enterprise-Grade Manufacturing Processes and Materials</h2>
             <p class="highlighted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor consetetur sadipscing elitr consetetur sadipscing elitr quantas san trinto invidun empor invidunt ut labore et do.</p>
-            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            <a href="<?php echo get_permalink(11); ?>" class="btn btn-primary btn-lg">Learn More</a>
           </div>
         </div>
       </div>
@@ -118,8 +118,8 @@ use Roots\Sage\Wrapper;
           <div class="col-sm-6 content align-help padded">
             <h2 class="blue">Quality. Precision. Reliability.<br>Instru-med is your design partner.</h2>
             <p class="highlighted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, adipscing elitr quan invidunt ut labore et do.</p>
-            <a href="#" class="btn btn-primary btn-lg">How Can We Help</a>
-            <a href="#" class="btn btn-secondary btn-lg">Request a Quote</a>
+            <a href="<?php echo get_permalink(17);?>" class="btn btn-primary btn-lg">Request a Quote</a>
+            <a href="<?php echo get_permalink(9);?>" class="btn btn-secondary btn-lg">How Can We Help</a>
             <br><br>
           </div>
         </div>
@@ -130,7 +130,7 @@ use Roots\Sage\Wrapper;
     <div id="subheader">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4"><h4><?php the_title(); ?></h4></div>
+          <div class="col-sm-4"><h5><?php the_title(); ?></h5></div>
           <div class="col-sm-8 text-right">
             <?php wp_nav_plus(array('theme_location'=>'primary_navigation','start_depth'=>1,'depth'=>1,'menu_class'=>'subnav list-inline list-unstyled')); ?>
           </div>

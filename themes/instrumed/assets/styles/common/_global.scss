@@ -523,6 +523,7 @@ table.image_grid{
   p{
     font-size:18px;
     margin-bottom:25px;
+    text-shadow: 0 0 30px black, 0 0 25px black;
   }
   .btn{
     padding:10px 25px;
@@ -636,6 +637,7 @@ body.front-page section{
       margin-bottom:20px;
       font-weight:300;
     }
+    .btn{margin-right:7px;margin-bottom:10px;}
 
     @media (max-width:$screen-sm){
       text-align:center;
