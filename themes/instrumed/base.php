@@ -100,10 +100,16 @@ use Roots\Sage\Wrapper;
           <p class="highlighted">Follow Instru-med for the latest updates and news from the orthopedics capital of the world, Warsaw, Indiana!</p>
           <p class="highlighted">Find us on the following social networks:</p>
           <div class="btn-group btn-group-social">
-            <a href="#"><i class="fa fa-twitter-square"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square"></i></a>
-            <a href="#"><i class="fa fa-google-plus-square"></i></a>
-            <a href="#"><i class="fa fa-facebook-square"></i></a>
+            <?php 
+              $tw = get_field('twitter_address','option');
+              $fb = get_field('facebook_address','option');
+              $gp = get_field('google+_address','option');
+              $li = get_field('linkedin_address','option');
+            ?>
+            <?php if($tw){ ?><a href="<?php echo $tw; ?>"><i class="fa fa-twitter-square"></i></a><?php } ?>
+            <?php if($li){ ?><a href="<?php echo $li; ?>"><i class="fa fa-linkedin-square"></i></a><?php } ?>
+            <?php if($gp){ ?><a href="<?php echo $gp; ?>"><i class="fa fa-google-plus-square"></i></a><?php } ?>
+            <?php if($fb){ ?><a href="<?php echo $fb; ?>"><i class="fa fa-facebook-square"></i></a><?php } ?>
           </div>
         </div>
         <div class="col-md-6">

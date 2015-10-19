@@ -31,16 +31,28 @@
         727 N Detroit St<br>
         Warsaw, IN 46580<br>
         ph: (574) 269-1982<br>
+        
+        <div class="btn-group btn-group-social">
+          <br>
+          <?php 
+            $tw = get_field('twitter_address','option');
+            $fb = get_field('facebook_address','option');
+            $gp = get_field('google+_address','option');
+            $li = get_field('linkedin_address','option');
+          ?>
+          <?php if($tw){ ?><a href="<?php echo $tw; ?>"><i class="fa fa-twitter-square"></i></a><?php } ?>
+          <?php if($li){ ?><a href="<?php echo $li; ?>"><i class="fa fa-linkedin-square"></i></a><?php } ?>
+          <?php if($gp){ ?><a href="<?php echo $gp; ?>"><i class="fa fa-google-plus-square"></i></a><?php } ?>
+          <?php if($fb){ ?><a href="<?php echo $fb; ?>"><i class="fa fa-facebook-square"></i></a><?php } ?>
+        </div>
       </div>
     </div>
     <div class="row legalrow">
       <div class="col-sm-6">
-        2015 Silicon Mountain Tecnologies
+        &copy; <?php echo date("Y");?> Instru-medical Technologies
       </div>
       <div class="col-sm-6 text-right">
-        <a href="#">Terms and Conditions</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Thanks</a>
+        <a href="<?php echo get_permalink(142); ?>">Privacy Policy</a>
       </div>
     </div>
   </div>
