@@ -4,16 +4,11 @@
  */
 ?>
 
-<?php while (have_posts()) : the_post();
-    
-    //TODO!!!!!!!!!
-    //Create fields and display code for "Gallery" content block grid of images .. comp it up in Photoshop first
-    //Display code for CTA block too!
-    
+<?php while (have_posts()) : the_post();  
     
     $contentcount = 1;
     echo "<section class='contentblock layout-wp-content'>";
-    echo "<div class='container'>";
+    echo "<div class='container container-limit-width'>";
     get_template_part('templates/page', 'header');
     the_content();
     echo "</div>";
@@ -26,7 +21,7 @@
         while ( have_rows('page_content_blocks') ) : the_row();
             
           echo "<section class='contentblock layout-".get_row_layout()."'>";
-          echo "<div class='container'>";
+          echo "<div class='container container-limit-width'>";
             echo "<div id='content-block-section-".$contentcount."'>";
             
             if( get_row_layout() == 'standard_content' ):
@@ -97,7 +92,7 @@
               $cta_box_button_link = get_sub_field('cta_box_button_link');
               ?>
               
-                <div class="container">
+                <div class="container container-limit-width">
                   <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 text-center content align-help padded">
                       <h2 class="blue"><?php echo $cta_box_title ?></h2>
@@ -119,7 +114,7 @@
               $ig_button_link = get_sub_field('button_link');
               ?>
               
-                <div class="container">
+                <div class="container container-limit-width">
                   <div class="row">
                     <div class="col-xs-10 col-xs-offset-1 text-center content align-help padded">
                       <h2 class="blue"><?php echo $ig_title ?></h2>

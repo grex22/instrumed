@@ -2,11 +2,12 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-3 col-xs-12 footerlogo">
-        <?php dynamic_sidebar('sidebar-footer'); ?>
         <img src="<?php echo get_template_directory_uri(); ?>/dist/images/instrumed-logo-g.png">
+        <?php dynamic_sidebar('sidebar-footer'); ?>
       </div>
       <div class="col-sm-3 col-xs-4">
         <h6>Sitemap</h6>
+        <?php dynamic_sidebar('sidebar-footer-2'); ?>
         <ul class="list-unstyled">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
@@ -19,6 +20,7 @@
       </div>
       <div class="col-sm-3 col-xs-4">
         <h6>Manufacturing Services</h6>
+        <?php dynamic_sidebar('sidebar-footer-3'); ?>
         <ul class="list-unstyled">
           <li><a href="#">Vendor List</a></li>
           <li><a href="#">Other Services</a></li>
@@ -27,6 +29,7 @@
         </ul>
       </div>
       <div class="col-sm-3 col-xs-4">
+        <?php dynamic_sidebar('sidebar-footer-4'); ?>
         <h6>Contact Us</h6>
         727 N Detroit St<br>
         Warsaw, IN 46580<br>
@@ -46,6 +49,7 @@
           <?php if($fb){ ?><a href="<?php echo $fb; ?>"><i class="fa fa-facebook-square"></i></a><?php } ?>
         </div>
       </div>
+
     </div>
     <div class="row legalrow">
       <div class="col-sm-6">

@@ -111,6 +111,43 @@ use Roots\Sage\Wrapper;
             <?php if($gp){ ?><a href="<?php echo $gp; ?>"><i class="fa fa-google-plus-square"></i></a><?php } ?>
             <?php if($fb){ ?><a href="<?php echo $fb; ?>"><i class="fa fa-facebook-square"></i></a><?php } ?>
           </div>
+          
+          <?php
+          
+          $events = get_posts(array(
+            'post_type' => 'event',
+            'posts_per_page'	=> 2,
+            'meta_query'	=> array(
+              array(
+                'key'	 	=> 'start_date',
+                'value'	  	=> date("Ymd"),
+                'compare' 	=> '>=',
+              )
+            ),
+            'orderby'			=> 'meta_value_num',
+            'order'				=> 'ASC'
+          ));
+          if($events): ?>
+            <hr>
+            <h3 class="blue">Upcoming Events</h3>
+            <ul class='list-unstyled list-events'>
+            <?php
+            foreach($events as $event):
+              echo "<li><strong>". $event->post_title . "</strong><br>";
+              echo "<small><strong>".date("M j, Y", strtotime(get_field('start_date',$event->ID)));
+              if(get_field('end_date',$event->ID)) echo " - ".date("M j, Y", strtotime(get_field('end_date',$event->ID)));
+              echo " &mdash; ".get_field('event_location',$event->ID);
+              echo "</strong><br>";
+              if(get_field('event_description',$event->ID)) echo get_field('event_description',$event->ID);
+              echo "</small>";
+              echo "</li>";
+            endforeach;
+            echo "</ul>";
+          else:
+            //echo "<em>There are no upcoming events at this time, but check back soon!</em>";
+          endif;
+          
+          ?>
         </div>
         <div class="col-md-6">
           <a class="twitter-timeline" href="https://twitter.com/Instru_med" data-widget-id="639124671343009792">Tweets by @Instru_med</a>
@@ -123,7 +160,7 @@ use Roots\Sage\Wrapper;
         <div class="row">
           <div class="col-sm-6 content align-help padded">
             <h2 class="blue">Quality. Precision. Reliability.<br>Instru-med is your design partner.</h2>
-            <p class="highlighted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, adipscing elitr quan invidunt ut labore et do.</p>
+            <p class="highlighted">We at Instru-med pride ourselves in meeting the needs of our customers and providing quality, on-time product through highly skilled employees, and state-of-the-art technology.</p>
             <a href="<?php echo get_permalink(17);?>" class="btn btn-primary btn-lg">Request a Quote</a>
             <a href="<?php echo get_permalink(9);?>" class="btn btn-secondary btn-lg">How Can We Help</a>
             <br><br>
@@ -173,14 +210,15 @@ use Roots\Sage\Wrapper;
     <?php else: ?>
       <div class="wrap container">
         <div class="content row">
+          
+          <main class="main" role="main">
+            <?php include Wrapper\template_path(); ?>
+          </main>
           <?php if (Config\display_sidebar()) : ?>
             <aside class="sidebar">
               <?php include Wrapper\sidebar_path(); ?>
             </aside>
           <?php endif; ?>
-          <main class="main" role="main">
-            <?php include Wrapper\template_path(); ?>
-          </main>
         </div>
       </div>
     <?php endif; ?>

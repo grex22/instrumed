@@ -1,0 +1,646 @@
+0000.126 (0) Opened log file at time: Tue, 12 Jan 2016 18:39:18 +0000 on http://localhost/instrumed
+0000.430 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.12 WP: 4.3.2 PHP: 5.5.12 (Windows NT RIPFISH 6.1 build 7601 (Windows 7 Home Premium Edition Service Pack 1) AMD64) MySQL: 5.6.17 Server: Apache/2.4.9 (Win64) PHP/5.5.12 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.6M | 40M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.677 (0) Free space on disk containing Updraft's temporary directory: 115040.3 Mb
+0000.785 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: weekly)
+0000.901 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0001.046 (0) Requesting semaphore lock (f)
+0001.282 (0) Semaphore (f) was stuck, set lock time to 2016-01-12 18:39:19
+0001.438 (0) Semaphore (f) reset to 1
+0001.788 (0) Set semaphore last lock (f) time to 2016-01-12 18:39:20
+0001.854 (0) Semaphore lock (f) complete
+0002.823 (0) Backup run: resumption=0, nonce=40eeca79d21d, begun at=1452623958 (3s ago), job type=backup
+0003.392 (0) Scheduling a resumption (1) after 300 seconds (1452624262) in case this run gets aborted
+0003.753 (0) Checking if we have a zip executable available
+0004.154 (0) Creation of backups of directories: beginning
+0004.627 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0007.300 (0) Total entities for the zip file: 395 directories, 2478 files (0 skipped as non-modified), 40.5 Mb
+0007.411 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0008.051 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 100 files added (on-disk size: 63.9 Kb)
+0008.616 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 200 files added (on-disk size: 63.9 Kb)
+0008.913 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 300 files added (on-disk size: 63.9 Kb)
+0009.394 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 400 files added (on-disk size: 63.9 Kb)
+0009.813 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 500 files added (on-disk size: 63.9 Kb)
+0010.317 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.8 Mb, 2478 files batched, 501 (502) added so far); re-opening (prior size: 63.9 Kb)
+0050.785 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 600 files added (on-disk size: 2902.9 Kb)
+0050.985 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 700 files added (on-disk size: 2902.9 Kb)
+0051.135 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 800 files added (on-disk size: 2902.9 Kb)
+0051.335 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 900 files added (on-disk size: 2902.9 Kb)
+0051.615 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 1000 files added (on-disk size: 2902.9 Kb)
+0051.805 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (13.3 Mb, 2478 files batched, 501 (1003) added so far); re-opening (prior size: 2902.9 Kb)
+0088.675 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 1100 files added (on-disk size: 7190 Kb)
+0088.955 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 1200 files added (on-disk size: 7190 Kb)
+0089.193 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 1300 files added (on-disk size: 7190 Kb)
+0089.489 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 1400 files added (on-disk size: 7190 Kb)
+0089.740 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 1500 files added (on-disk size: 7190 Kb)
+0089.883 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.4 Mb, 2478 files batched, 501 (1504) added so far); re-opening (prior size: 7190 Kb)
+0119.982 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 1600 files added (on-disk size: 10416.6 Kb)
+0120.205 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 1700 files added (on-disk size: 10416.6 Kb)
+0120.435 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 1800 files added (on-disk size: 10416.6 Kb)
+0120.695 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 1900 files added (on-disk size: 10416.6 Kb)
+0120.885 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 2000 files added (on-disk size: 10416.6 Kb)
+0120.965 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 Mb, 2478 files batched, 501 (2005) added so far); re-opening (prior size: 10416.6 Kb)
+0144.790 (0) File has vanished from underneath us; dropping: plugins/wordfence/tmp/configCache.php
+0145.018 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 2100 files added (on-disk size: 11798.8 Kb)
+0145.667 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 2200 files added (on-disk size: 11798.8 Kb)
+0145.842 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 2300 files added (on-disk size: 11798.8 Kb)
+0146.210 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip.tmp: 2400 files added (on-disk size: 11798.8 Kb)
+0175.119 (0) Created plugins zip (0) - 14156.7 Kb in 170.4 s (83.1 Kb/s) (SHA1 checksum: 351895261cc16aa23023d9ee0ba106efd08c902f)
+0175.581 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0202.866 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-jpegtran\node_modules\jpegtran-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-tarbz2\node_modules\is-bzip2
+0203.076 (0) An error condition has occurred for the first time during this job
+0203.146 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-jpegtran\node_modules\jpegtran-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-tarbz2\node_modules\through2
+0203.286 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-jpegtran\node_modules\jpegtran-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-targz\node_modules\vinyl\lib
+0203.526 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-jpegtran\node_modules\jpegtran-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-unzip\node_modules\stat-mode
+0203.746 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-jpegtran\node_modules\jpegtran-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-unzip\node_modules\vinyl\lib
+0204.292 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-jpegtran\node_modules\jpegtran-bin\node_modules\bin-build\node_modules\download\node_modules\gulp-decompress\node_modules\archive-type
+0204.472 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-jpegtran\node_modules\jpegtran-bin\node_modules\bin-build\node_modules\download\node_modules\ware\node_modules\wrap-fn\node_modules\co
+0204.982 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-jpegtran\node_modules\jpegtran-bin\node_modules\bin-wrapper\node_modules\download\node_modules\caw\node_modules\get-proxy\node_modules
+0205.195 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-jpegtran\node_modules\jpegtran-bin\node_modules\bin-wrapper\node_modules\download\node_modules\got\node_modules\duplexify\node_modules
+0205.385 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-jpegtran\node_modules\jpegtran-bin\node_modules\bin-wrapper\node_modules\download\node_modules\gulp-decompress\node_modules\decompress
+0206.985 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-optipng\node_modules\optipng-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-tar\node_modules\object-assign
+0207.195 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-optipng\node_modules\optipng-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-tarbz2\node_modules\strip-dirs
+0207.375 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-optipng\node_modules\optipng-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-tarbz2\node_modules\tar-stream
+0207.701 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-optipng\node_modules\optipng-bin\node_modules\bin-build\node_modules\decompress\node_modules\vinyl-assign\node_modules\readable-stream
+0208.185 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-optipng\node_modules\optipng-bin\node_modules\bin-build\node_modules\download\node_modules\read-all-stream\node_modules\pinkie-promise
+0209.205 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-optipng\node_modules\optipng-bin\node_modules\bin-wrapper\node_modules\download\node_modules\gulp-decompress\node_modules\archive-type
+0209.415 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-optipng\node_modules\optipng-bin\node_modules\bin-wrapper\node_modules\download\node_modules\through2\node_modules\readable-stream\doc
+0210.225 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-optipng\node_modules\optipng-bin\node_modules\bin-wrapper\node_modules\download\node_modules\through2\node_modules\readable-stream\lib
+0210.555 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-imagemin\node_modules\imagemin\node_modules\imagemin-optipng\node_modules\optipng-bin\node_modules\bin-wrapper\node_modules\download\node_modules\ware\node_modules\wrap-fn\node_modules\co
+0327.607 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\gulp-sass\node_modules\node-sass\node_modules\sass-graph\node_modules\yargs\node_modules\cliui\node_modules\right-align\node_modules\align-text\node_modules\kind-of\node_modules\is-buffer\test
+0350.144 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-tar\node_modules\strip-dirs\node_modules\is-absolute\node_modules\is-relative
+0350.492 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-tar\node_modules\tar-stream\node_modules\end-of-stream\node_modules\once\test
+0350.856 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-tar\node_modules\tar-stream\node_modules\readable-stream\node_modules\isarray
+0353.514 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-tarbz2\node_modules\strip-dirs\node_modules\chalk\node_modules\supports-color
+0361.862 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\decompress\node_modules\decompress-unzip\node_modules\through2\node_modules\readable-stream\node_modules\isarray
+0365.940 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\decompress\node_modules\stream-combiner2\node_modules\through2\node_modules\readable-stream\node_modules\isarray
+0371.204 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\decompress\node_modules\vinyl-fs\node_modules\duplexify\node_modules\readable-stream\node_modules\string_decoder
+0371.667 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\decompress\node_modules\vinyl-fs\node_modules\duplexify\node_modules\readable-stream\node_modules\util-deprecate
+0386.384 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\download\node_modules\stream-combiner2\node_modules\duplexer2\node_modules\readable-stream\node_modules\inherits
+0391.784 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\download\node_modules\vinyl-fs\node_modules\duplexify\node_modules\readable-stream\node_modules\core-util-is\lib
+0394.206 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-build\node_modules\download\node_modules\vinyl-fs\node_modules\glob-stream\node_modules\minimatch\node_modules\brace-expansion\test
+0407.052 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-wrapper\node_modules\download\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\isarray\build
+0407.768 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-wrapper\node_modules\download\node_modules\gulp-decompress\node_modules\archive-type\node_modules\file-type\node_modules\read-chunk
+0408.889 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-wrapper\node_modules\download\node_modules\gulp-decompress\node_modules\decompress\node_modules\decompress-tarbz2\node_modules\.bin
+0409.344 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-wrapper\node_modules\download\node_modules\gulp-decompress\node_modules\decompress\node_modules\decompress-unzip\node_modules\vinyl
+0409.454 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-wrapper\node_modules\download\node_modules\gulp-decompress\node_modules\decompress\node_modules\decompress-unzip\node_modules\yauzl
+0414.191 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-wrapper\node_modules\download\node_modules\stream-combiner2\node_modules\through2\node_modules\readable-stream\node_modules\isarray
+0416.712 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-wrapper\node_modules\download\node_modules\vinyl-fs\node_modules\duplexify\node_modules\readable-stream\node_modules\string_decoder
+0416.762 (0) Failed to open directory: C:\wamp2.5\www\instrumed\wp-content\themes\instrumed\node_modules\imagemin-pngcrush\node_modules\pngcrush-bin\node_modules\bin-wrapper\node_modules\download\node_modules\vinyl-fs\node_modules\duplexify\node_modules\readable-stream\node_modules\util-deprecate
+0432.968 (0) Total entities for the zip file: 6151 directories, 25101 files (0 skipped as non-modified), 129.2 Mb
+0433.870 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0434.270 (0) The time we have been running (433.9) is approaching the resumption interval (300) - increasing resumption interval to 464
+0434.541 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 100 files added (on-disk size: 2078.9 Kb)
+0434.791 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 200 files added (on-disk size: 2078.9 Kb)
+0435.031 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 300 files added (on-disk size: 2078.9 Kb)
+0435.261 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 400 files added (on-disk size: 2078.9 Kb)
+0435.481 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 Mb added on this batch (33 Mb, 25101 files batched, 490 (491) added so far); re-opening (prior size: 2078.9 Kb)
+0460.537 (0) The time we have been running (459.7) is approaching the resumption interval (464) - increasing resumption interval to 490
+0460.767 (0) A useful amount of data was added after this amount of zip processing: 26.4 s (normalised: 20 s, rate: 1280.3 Kb/s)
+0461.187 (0) The time we have been running (460.7) is approaching the resumption interval (490) - increasing resumption interval to 491
+0461.287 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 500 files added (on-disk size: 24928.6 Kb)
+0461.503 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 600 files added (on-disk size: 24928.6 Kb)
+0461.743 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 700 files added (on-disk size: 24928.6 Kb)
+0462.243 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 800 files added (on-disk size: 24928.6 Kb)
+0462.503 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 900 files added (on-disk size: 24928.6 Kb)
+0462.734 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.3 Mb, 25101 files batched, 501 (992) added so far); re-opening (prior size: 24928.6 Kb)
+0482.887 (0) The time we have been running (482.5) is approaching the resumption interval (491) - increasing resumption interval to 513
+0483.173 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 1000 files added (on-disk size: 26943.3 Kb)
+0483.467 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 1100 files added (on-disk size: 26943.3 Kb)
+0483.768 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 1200 files added (on-disk size: 26943.3 Kb)
+0484.095 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 1300 files added (on-disk size: 26943.3 Kb)
+0484.476 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 1400 files added (on-disk size: 26943.3 Kb)
+0484.812 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 Mb, 25101 files batched, 501 (1493) added so far); re-opening (prior size: 26943.3 Kb)
+0506.086 (0) The time we have been running (505.8) is approaching the resumption interval (513) - increasing resumption interval to 536
+0506.226 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 1500 files added (on-disk size: 27655.3 Kb)
+0506.471 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 1600 files added (on-disk size: 27655.3 Kb)
+0506.741 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 1700 files added (on-disk size: 27655.3 Kb)
+0507.031 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 1800 files added (on-disk size: 27655.3 Kb)
+0507.308 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 1900 files added (on-disk size: 27655.3 Kb)
+0507.528 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.2 Mb, 25101 files batched, 501 (1994) added so far); re-opening (prior size: 27655.3 Kb)
+0527.774 (0) The time we have been running (527.4) is approaching the resumption interval (536) - increasing resumption interval to 558
+0527.864 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 2000 files added (on-disk size: 28228.5 Kb)
+0528.429 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 2100 files added (on-disk size: 28228.5 Kb)
+0528.819 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 2200 files added (on-disk size: 28228.5 Kb)
+0529.119 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 2300 files added (on-disk size: 28228.5 Kb)
+0529.399 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 2400 files added (on-disk size: 28228.5 Kb)
+0529.769 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.3 Mb, 25101 files batched, 501 (2495) added so far); re-opening (prior size: 28228.5 Kb)
+0549.126 (0) The time we have been running (548.6) is approaching the resumption interval (558) - increasing resumption interval to 579
+0549.476 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 2500 files added (on-disk size: 29414.6 Kb)
+0549.746 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 2600 files added (on-disk size: 29414.6 Kb)
+0550.448 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 2700 files added (on-disk size: 29414.6 Kb)
+0550.715 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 2800 files added (on-disk size: 29414.6 Kb)
+0551.040 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 2900 files added (on-disk size: 29414.6 Kb)
+0551.281 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.1 Mb, 25101 files batched, 501 (2996) added so far); re-opening (prior size: 29414.6 Kb)
+0586.306 (0) The time we have been running (586) is approaching the resumption interval (579) - increasing resumption interval to 616
+0586.486 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 3000 files added (on-disk size: 34369.5 Kb)
+0586.716 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 3100 files added (on-disk size: 34369.5 Kb)
+0586.996 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 3200 files added (on-disk size: 34369.5 Kb)
+0587.226 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 3300 files added (on-disk size: 34369.5 Kb)
+0587.463 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 3400 files added (on-disk size: 34369.5 Kb)
+0587.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 Mb, 25101 files batched, 501 (3497) added so far); re-opening (prior size: 34369.5 Kb)
+0609.123 (0) The time we have been running (608.7) is approaching the resumption interval (616) - increasing resumption interval to 639
+0609.314 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 3500 files added (on-disk size: 35155.3 Kb)
+0609.574 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 3600 files added (on-disk size: 35155.3 Kb)
+0609.804 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 3700 files added (on-disk size: 35155.3 Kb)
+0610.035 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 3800 files added (on-disk size: 35155.3 Kb)
+0610.995 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 3900 files added (on-disk size: 35155.3 Kb)
+0611.295 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.3 Mb, 25101 files batched, 501 (3998) added so far); re-opening (prior size: 35155.3 Kb)
+0628.596 (0) The time we have been running (628.3) is approaching the resumption interval (639) - increasing resumption interval to 659
+0628.716 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 4000 files added (on-disk size: 35678.8 Kb)
+0628.951 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 4100 files added (on-disk size: 35678.8 Kb)
+0629.191 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 4200 files added (on-disk size: 35678.8 Kb)
+0629.461 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 4300 files added (on-disk size: 35678.8 Kb)
+0629.741 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 4400 files added (on-disk size: 35678.8 Kb)
+0630.361 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 Mb, 25101 files batched, 501 (4499) added so far); re-opening (prior size: 35678.8 Kb)
+0648.894 (0) The time we have been running (648) is approaching the resumption interval (659) - increasing resumption interval to 679
+0649.074 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 4500 files added (on-disk size: 36415.4 Kb)
+0649.424 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 4600 files added (on-disk size: 36415.4 Kb)
+0649.774 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 4700 files added (on-disk size: 36415.4 Kb)
+0650.084 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 4800 files added (on-disk size: 36415.4 Kb)
+0650.404 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 4900 files added (on-disk size: 36415.4 Kb)
+0650.704 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 Mb, 25101 files batched, 501 (5000) added so far); re-opening (prior size: 36415.4 Kb)
+0671.403 (0) The time we have been running (671.1) is approaching the resumption interval (679) - increasing resumption interval to 702
+0671.633 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 5000 files added (on-disk size: 38393.3 Kb)
+0671.953 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 5100 files added (on-disk size: 38393.3 Kb)
+0672.363 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 5200 files added (on-disk size: 38393.3 Kb)
+0672.633 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 5300 files added (on-disk size: 38393.3 Kb)
+0672.903 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 5400 files added (on-disk size: 38393.3 Kb)
+0673.193 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 5500 files added (on-disk size: 38393.3 Kb)
+0673.283 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1 Mb, 25101 files batched, 501 (5501) added so far); re-opening (prior size: 38393.3 Kb)
+0694.359 (0) The time we have been running (693.6) is approaching the resumption interval (702) - increasing resumption interval to 724
+0694.750 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 5600 files added (on-disk size: 38952.7 Kb)
+0695.040 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 5700 files added (on-disk size: 38952.7 Kb)
+0695.360 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 5800 files added (on-disk size: 38952.7 Kb)
+0695.680 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 5900 files added (on-disk size: 38952.7 Kb)
+0696.113 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 6000 files added (on-disk size: 38952.7 Kb)
+0696.283 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 Mb, 25101 files batched, 501 (6002) added so far); re-opening (prior size: 38952.7 Kb)
+0714.762 (0) The time we have been running (714.3) is approaching the resumption interval (724) - increasing resumption interval to 745
+0715.172 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 6100 files added (on-disk size: 39622.4 Kb)
+0715.482 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 6200 files added (on-disk size: 39622.4 Kb)
+0715.762 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 6300 files added (on-disk size: 39622.4 Kb)
+0716.090 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 6400 files added (on-disk size: 39622.4 Kb)
+0716.380 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 6500 files added (on-disk size: 39622.4 Kb)
+0716.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.9 Mb, 25101 files batched, 501 (6503) added so far); re-opening (prior size: 39622.4 Kb)
+0745.444 (0) The time we have been running (745) is approaching the resumption interval (745) - increasing resumption interval to 776
+0745.834 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 6600 files added (on-disk size: 40584.8 Kb)
+0746.868 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 6700 files added (on-disk size: 40584.8 Kb)
+0747.326 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 6800 files added (on-disk size: 40584.8 Kb)
+0747.686 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 6900 files added (on-disk size: 40584.8 Kb)
+0748.125 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 7000 files added (on-disk size: 40584.8 Kb)
+0748.389 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 Mb, 498 (7001) files added so far); re-opening (prior size: 40584.8 Kb)
+0769.071 (0) The time we have been running (768.6) is approaching the resumption interval (776) - increasing resumption interval to 799
+0769.591 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 7100 files added (on-disk size: 41164.6 Kb)
+0769.941 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 7200 files added (on-disk size: 41164.6 Kb)
+0770.622 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 7300 files added (on-disk size: 41164.6 Kb)
+0771.112 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 7400 files added (on-disk size: 41164.6 Kb)
+0771.592 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 7500 files added (on-disk size: 41164.6 Kb)
+0771.722 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2 Mb, 25101 files batched, 501 (7502) added so far); re-opening (prior size: 41164.6 Kb)
+0796.683 (0) The time we have been running (795.9) is approaching the resumption interval (799) - increasing resumption interval to 826
+0797.223 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 7600 files added (on-disk size: 41930.3 Kb)
+0797.778 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 7700 files added (on-disk size: 41930.3 Kb)
+0798.218 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 7800 files added (on-disk size: 41930.3 Kb)
+0798.918 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 7900 files added (on-disk size: 41930.3 Kb)
+0799.359 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 Mb, 463 (7965) files added so far); re-opening (prior size: 41930.3 Kb)
+0822.339 (0) The time we have been running (821.6) is approaching the resumption interval (826) - increasing resumption interval to 852
+0823.398 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 8000 files added (on-disk size: 42466.7 Kb)
+0824.398 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 8100 files added (on-disk size: 42466.7 Kb)
+0824.898 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 8200 files added (on-disk size: 42466.7 Kb)
+0825.368 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 Mb, 333 (8298) files added so far); re-opening (prior size: 42466.7 Kb)
+0845.067 (0) The time we have been running (844.5) is approaching the resumption interval (852) - increasing resumption interval to 875
+0845.467 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 8300 files added (on-disk size: 42856.8 Kb)
+0845.857 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 8400 files added (on-disk size: 42856.8 Kb)
+0846.397 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 8500 files added (on-disk size: 42856.8 Kb)
+0847.037 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 8600 files added (on-disk size: 42856.8 Kb)
+0847.546 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 8700 files added (on-disk size: 42856.8 Kb)
+0847.909 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.2 Mb, 25101 files batched, 501 (8799) added so far); re-opening (prior size: 42856.8 Kb)
+0868.926 (0) The time we have been running (868.4) is approaching the resumption interval (875) - increasing resumption interval to 899
+0869.114 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 8800 files added (on-disk size: 43449.6 Kb)
+0869.437 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 8900 files added (on-disk size: 43449.6 Kb)
+0869.820 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 9000 files added (on-disk size: 43449.6 Kb)
+0870.496 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 9100 files added (on-disk size: 43449.6 Kb)
+0871.278 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 9200 files added (on-disk size: 43449.6 Kb)
+0871.608 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 Mb, 402 (9201) files added so far); re-opening (prior size: 43449.6 Kb)
+0897.640 (0) The time we have been running (896.9) is approaching the resumption interval (899) - increasing resumption interval to 927
+0898.703 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 9300 files added (on-disk size: 43983.1 Kb)
+0899.083 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 9400 files added (on-disk size: 43983.1 Kb)
+0899.434 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 9500 files added (on-disk size: 43983.1 Kb)
+0899.818 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 9600 files added (on-disk size: 43983.1 Kb)
+0900.368 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 Mb, 463 (9664) files added so far); re-opening (prior size: 43983.1 Kb)
+0925.634 (0) The time we have been running (924.8) is approaching the resumption interval (927) - increasing resumption interval to 955
+0926.404 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 9700 files added (on-disk size: 44770.5 Kb)
+0926.920 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 9800 files added (on-disk size: 44770.5 Kb)
+0927.370 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 9900 files added (on-disk size: 44770.5 Kb)
+0927.761 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 10000 files added (on-disk size: 44770.5 Kb)
+0928.361 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 Mb, 412 (10076) files added so far); re-opening (prior size: 44770.5 Kb)
+0952.205 (0) The time we have been running (951.4) is approaching the resumption interval (955) - increasing resumption interval to 982
+0952.775 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 10100 files added (on-disk size: 45316.7 Kb)
+0953.240 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 10200 files added (on-disk size: 45316.7 Kb)
+0953.670 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 10300 files added (on-disk size: 45316.7 Kb)
+0954.240 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 10400 files added (on-disk size: 45316.7 Kb)
+0954.590 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 10500 files added (on-disk size: 45316.7 Kb)
+0954.960 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.5 Mb, 25101 files batched, 501 (10577) added so far); re-opening (prior size: 45316.7 Kb)
+0978.566 (0) The time we have been running (977.7) is approaching the resumption interval (982) - increasing resumption interval to 1008
+0979.186 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 10600 files added (on-disk size: 46056.5 Kb)
+0979.544 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 10700 files added (on-disk size: 46056.5 Kb)
+0980.017 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 10800 files added (on-disk size: 46056.5 Kb)
+0980.357 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 10900 files added (on-disk size: 46056.5 Kb)
+0980.787 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 11000 files added (on-disk size: 46056.5 Kb)
+0981.307 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 Mb, 25101 files batched, 501 (11078) added so far); re-opening (prior size: 46056.5 Kb)
+1007.083 (0) The time we have been running (1006.6) is approaching the resumption interval (1008) - increasing resumption interval to 1037
+1007.593 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 11100 files added (on-disk size: 46693.1 Kb)
+1008.073 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 11200 files added (on-disk size: 46693.1 Kb)
+1008.603 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 11300 files added (on-disk size: 46693.1 Kb)
+1009.125 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 11400 files added (on-disk size: 46693.1 Kb)
+1009.462 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 11500 files added (on-disk size: 46693.1 Kb)
+1009.793 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.7 Mb, 25101 files batched, 501 (11579) added so far); re-opening (prior size: 46693.1 Kb)
+1033.552 (0) The time we have been running (1033) is approaching the resumption interval (1037) - increasing resumption interval to 1064
+1033.843 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 11600 files added (on-disk size: 47413.9 Kb)
+1034.535 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 11700 files added (on-disk size: 47413.9 Kb)
+1034.936 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 11800 files added (on-disk size: 47413.9 Kb)
+1035.261 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 11900 files added (on-disk size: 47413.9 Kb)
+1035.601 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 12000 files added (on-disk size: 47413.9 Kb)
+1036.001 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.2 Mb, 25101 files batched, 501 (12080) added so far); re-opening (prior size: 47413.9 Kb)
+1063.252 (0) The time we have been running (1062.8) is approaching the resumption interval (1064) - increasing resumption interval to 1093
+1063.582 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 12100 files added (on-disk size: 48573 Kb)
+1064.000 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 12200 files added (on-disk size: 48573 Kb)
+1065.010 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 12300 files added (on-disk size: 48573 Kb)
+1065.510 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 12400 files added (on-disk size: 48573 Kb)
+1066.133 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 12500 files added (on-disk size: 48573 Kb)
+1066.363 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 Mb, 455 (12535) files added so far); re-opening (prior size: 48573 Kb)
+1083.192 (0) The time we have been running (1082.8) is approaching the resumption interval (1093) - increasing resumption interval to 1113
+1083.542 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 12600 files added (on-disk size: 49026.5 Kb)
+1083.863 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 12700 files added (on-disk size: 49026.5 Kb)
+1084.443 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 12800 files added (on-disk size: 49026.5 Kb)
+1084.909 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 12900 files added (on-disk size: 49026.5 Kb)
+1085.229 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 13000 files added (on-disk size: 49026.5 Kb)
+1085.359 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 Mb, 483 (13018) files added so far); re-opening (prior size: 49026.5 Kb)
+1101.222 (0) The time we have been running (1100.8) is approaching the resumption interval (1113) - increasing resumption interval to 1131
+1101.622 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 13100 files added (on-disk size: 49521.5 Kb)
+1102.405 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 13200 files added (on-disk size: 49521.5 Kb)
+1102.685 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 13300 files added (on-disk size: 49521.5 Kb)
+1103.100 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 13400 files added (on-disk size: 49521.5 Kb)
+1103.430 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 13500 files added (on-disk size: 49521.5 Kb)
+1103.550 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 Mb, 25101 files batched, 501 (13519) added so far); re-opening (prior size: 49521.5 Kb)
+1141.474 (0) The time we have been running (1141.1) is approaching the resumption interval (1131) - increasing resumption interval to 1172
+1141.814 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 13600 files added (on-disk size: 50235.5 Kb)
+1142.274 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 13700 files added (on-disk size: 50235.5 Kb)
+1142.863 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 13800 files added (on-disk size: 50235.5 Kb)
+1143.441 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 13900 files added (on-disk size: 50235.5 Kb)
+1143.804 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 14000 files added (on-disk size: 50235.5 Kb)
+1144.090 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 Mb, 25101 files batched, 501 (14020) added so far); re-opening (prior size: 50235.5 Kb)
+1165.566 (0) The time we have been running (1165.3) is approaching the resumption interval (1172) - increasing resumption interval to 1196
+1165.902 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 14100 files added (on-disk size: 50898.3 Kb)
+1166.688 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 14200 files added (on-disk size: 50898.3 Kb)
+1167.088 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 14300 files added (on-disk size: 50898.3 Kb)
+1167.490 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 14400 files added (on-disk size: 50898.3 Kb)
+1167.878 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 14500 files added (on-disk size: 50898.3 Kb)
+1168.053 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.7 Mb, 25101 files batched, 501 (14521) added so far); re-opening (prior size: 50898.3 Kb)
+1187.419 (0) The time we have been running (1187.1) is approaching the resumption interval (1196) - increasing resumption interval to 1218
+1187.752 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 14600 files added (on-disk size: 51602.6 Kb)
+1188.295 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 14700 files added (on-disk size: 51602.6 Kb)
+1188.819 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 14800 files added (on-disk size: 51602.6 Kb)
+1189.311 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 14900 files added (on-disk size: 51602.6 Kb)
+1189.645 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 15000 files added (on-disk size: 51602.6 Kb)
+1189.785 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.1 Mb, 25101 files batched, 501 (15022) added so far); re-opening (prior size: 51602.6 Kb)
+1210.677 (0) The time we have been running (1210.3) is approaching the resumption interval (1218) - increasing resumption interval to 1241
+1211.013 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 15100 files added (on-disk size: 52481.5 Kb)
+1211.323 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 15200 files added (on-disk size: 52481.5 Kb)
+1211.713 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 15300 files added (on-disk size: 52481.5 Kb)
+1212.003 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 15400 files added (on-disk size: 52481.5 Kb)
+1212.393 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 15500 files added (on-disk size: 52481.5 Kb)
+1212.894 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.5 Mb, 25101 files batched, 501 (15523) added so far); re-opening (prior size: 52481.5 Kb)
+1228.779 (0) The time we have been running (1228.2) is approaching the resumption interval (1241) - increasing resumption interval to 1259
+1229.279 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 15600 files added (on-disk size: 53114.7 Kb)
+1229.629 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 15700 files added (on-disk size: 53114.7 Kb)
+1230.059 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 15800 files added (on-disk size: 53114.7 Kb)
+1230.515 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 15900 files added (on-disk size: 53114.7 Kb)
+1231.062 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 16000 files added (on-disk size: 53114.7 Kb)
+1231.182 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1 Mb, 25101 files batched, 501 (16024) added so far); re-opening (prior size: 53114.7 Kb)
+1246.121 (0) The time we have been running (1245.4) is approaching the resumption interval (1259) - increasing resumption interval to 1276
+1246.961 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 16100 files added (on-disk size: 53594.9 Kb)
+1247.441 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 16200 files added (on-disk size: 53594.9 Kb)
+1248.054 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 16300 files added (on-disk size: 53594.9 Kb)
+1248.434 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 16400 files added (on-disk size: 53594.9 Kb)
+1248.854 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 16500 files added (on-disk size: 53594.9 Kb)
+1249.114 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.2 Mb, 25101 files batched, 501 (16525) added so far); re-opening (prior size: 53594.9 Kb)
+1276.532 (0) The time we have been running (1275.8) is approaching the resumption interval (1276) - increasing resumption interval to 1306
+1277.135 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 16600 files added (on-disk size: 54188.4 Kb)
+1277.701 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 16700 files added (on-disk size: 54188.4 Kb)
+1278.118 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 16800 files added (on-disk size: 54188.4 Kb)
+1278.757 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 16900 files added (on-disk size: 54188.4 Kb)
+1279.299 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 17000 files added (on-disk size: 54188.4 Kb)
+1279.391 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 Mb, 476 (17001) files added so far); re-opening (prior size: 54188.4 Kb)
+1301.619 (0) The time we have been running (1301.3) is approaching the resumption interval (1306) - increasing resumption interval to 1332
+1302.159 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 17100 files added (on-disk size: 54735 Kb)
+1302.869 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 17200 files added (on-disk size: 54735 Kb)
+1303.349 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 17300 files added (on-disk size: 54735 Kb)
+1303.810 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 17400 files added (on-disk size: 54735 Kb)
+1304.360 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 Mb, 410 (17411) files added so far); re-opening (prior size: 54735 Kb)
+1327.589 (0) The time we have been running (1326.6) is approaching the resumption interval (1332) - increasing resumption interval to 1357
+1328.763 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 17500 files added (on-disk size: 55173.5 Kb)
+1329.153 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 17600 files added (on-disk size: 55173.5 Kb)
+1329.643 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 17700 files added (on-disk size: 55173.5 Kb)
+1330.293 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 17800 files added (on-disk size: 55173.5 Kb)
+1330.413 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 Mb, 390 (17801) files added so far); re-opening (prior size: 55173.5 Kb)
+1345.628 (0) The time we have been running (1345.3) is approaching the resumption interval (1357) - increasing resumption interval to 1376
+1346.178 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 17900 files added (on-disk size: 55776.5 Kb)
+1346.670 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 18000 files added (on-disk size: 55776.5 Kb)
+1346.990 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 18100 files added (on-disk size: 55776.5 Kb)
+1347.340 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 18200 files added (on-disk size: 55776.5 Kb)
+1347.675 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 18300 files added (on-disk size: 55776.5 Kb)
+1347.770 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 Mb, 25101 files batched, 501 (18302) added so far); re-opening (prior size: 55776.5 Kb)
+1378.840 (0) The time we have been running (1378.4) is approaching the resumption interval (1376) - increasing resumption interval to 1409
+1379.587 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 18400 files added (on-disk size: 56697.3 Kb)
+1380.187 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 18500 files added (on-disk size: 56697.3 Kb)
+1380.993 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 18600 files added (on-disk size: 56697.3 Kb)
+1381.362 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 Mb, 336 (18638) files added so far); re-opening (prior size: 56697.3 Kb)
+1401.589 (0) The time we have been running (1399.5) is approaching the resumption interval (1409) - increasing resumption interval to 1430
+1402.949 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 18700 files added (on-disk size: 57388.2 Kb)
+1403.449 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 18800 files added (on-disk size: 57388.2 Kb)
+1404.140 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 18900 files added (on-disk size: 57388.2 Kb)
+1404.620 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 19000 files added (on-disk size: 57388.2 Kb)
+1405.241 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 19100 files added (on-disk size: 57388.2 Kb)
+1405.361 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 Mb, 469 (19107) files added so far); re-opening (prior size: 57388.2 Kb)
+1440.228 (0) The time we have been running (1438.5) is approaching the resumption interval (1430) - increasing resumption interval to 1469
+1441.504 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 19200 files added (on-disk size: 58333.6 Kb)
+1442.113 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 19300 files added (on-disk size: 58333.6 Kb)
+1443.104 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 19400 files added (on-disk size: 58333.6 Kb)
+1443.365 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 Mb, 320 (19427) files added so far); re-opening (prior size: 58333.6 Kb)
+1465.532 (0) The time we have been running (1465.1) is approaching the resumption interval (1469) - increasing resumption interval to 1496
+1466.240 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 19500 files added (on-disk size: 58973.9 Kb)
+1466.809 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 19600 files added (on-disk size: 58973.9 Kb)
+1467.548 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 19700 files added (on-disk size: 58973.9 Kb)
+1468.237 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 19800 files added (on-disk size: 58973.9 Kb)
+1468.362 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 Mb, 375 (19802) files added so far); re-opening (prior size: 58973.9 Kb)
+1483.548 (0) The time we have been running (1483.3) is approaching the resumption interval (1496) - increasing resumption interval to 1514
+1484.191 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 19900 files added (on-disk size: 59389.3 Kb)
+1485.188 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 20000 files added (on-disk size: 59389.3 Kb)
+1485.766 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 20100 files added (on-disk size: 59389.3 Kb)
+1486.359 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.1 Mb, 397 (20199) files added so far); re-opening (prior size: 59389.3 Kb)
+1509.197 (0) The time we have been running (1508.8) is approaching the resumption interval (1514) - increasing resumption interval to 1539
+1509.467 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 20200 files added (on-disk size: 60562.1 Kb)
+1509.797 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 20300 files added (on-disk size: 60562.1 Kb)
+1510.607 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 20400 files added (on-disk size: 60562.1 Kb)
+1511.477 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 20500 files added (on-disk size: 60562.1 Kb)
+1512.422 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 Mb, 302 (20501) files added so far); re-opening (prior size: 60562.1 Kb)
+1527.866 (0) The time we have been running (1527.6) is approaching the resumption interval (1539) - increasing resumption interval to 1558
+1528.526 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 20600 files added (on-disk size: 60854.5 Kb)
+1528.866 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 20700 files added (on-disk size: 60854.5 Kb)
+1529.246 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 20800 files added (on-disk size: 60854.5 Kb)
+1529.726 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 20900 files added (on-disk size: 60854.5 Kb)
+1530.296 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 21000 files added (on-disk size: 60854.5 Kb)
+1530.406 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 Mb, 500 (21001) files added so far); re-opening (prior size: 60854.5 Kb)
+1552.247 (0) The time we have been running (1551.8) is approaching the resumption interval (1558) - increasing resumption interval to 1582
+1552.807 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 21100 files added (on-disk size: 61638.7 Kb)
+1553.262 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 21200 files added (on-disk size: 61638.7 Kb)
+1553.688 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 21300 files added (on-disk size: 61638.7 Kb)
+1554.183 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 21400 files added (on-disk size: 61638.7 Kb)
+1554.743 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 21500 files added (on-disk size: 61638.7 Kb)
+1554.868 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.2 Mb, 25101 files batched, 501 (21502) added so far); re-opening (prior size: 61638.7 Kb)
+1578.410 (0) The time we have been running (1577.9) is approaching the resumption interval (1582) - increasing resumption interval to 1608
+1579.181 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 21600 files added (on-disk size: 62318.7 Kb)
+1579.671 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 21700 files added (on-disk size: 62318.7 Kb)
+1580.441 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 21800 files added (on-disk size: 62318.7 Kb)
+1580.902 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 21900 files added (on-disk size: 62318.7 Kb)
+1581.362 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 Mb, 492 (21994) files added so far); re-opening (prior size: 62318.7 Kb)
+1605.436 (0) The time we have been running (1605) is approaching the resumption interval (1608) - increasing resumption interval to 1636
+1605.766 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 22000 files added (on-disk size: 62964 Kb)
+1606.366 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 22100 files added (on-disk size: 62964 Kb)
+1606.752 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 22200 files added (on-disk size: 62964 Kb)
+1607.142 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 22300 files added (on-disk size: 62964 Kb)
+1607.509 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 22400 files added (on-disk size: 62964 Kb)
+1607.879 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.1 Mb, 25101 files batched, 501 (22495) added so far); re-opening (prior size: 62964 Kb)
+1628.498 (0) The time we have been running (1628.1) is approaching the resumption interval (1636) - increasing resumption interval to 1659
+1628.828 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 22500 files added (on-disk size: 63612.1 Kb)
+1629.228 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 22600 files added (on-disk size: 63612.1 Kb)
+1629.598 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 22700 files added (on-disk size: 63612.1 Kb)
+1630.228 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 22800 files added (on-disk size: 63612.1 Kb)
+1630.825 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 22900 files added (on-disk size: 63612.1 Kb)
+1631.195 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.2 Mb, 25101 files batched, 501 (22996) added so far); re-opening (prior size: 63612.1 Kb)
+1652.361 (0) The time we have been running (1651.9) is approaching the resumption interval (1659) - increasing resumption interval to 1682
+1652.641 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 23000 files added (on-disk size: 64279.5 Kb)
+1653.041 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 23100 files added (on-disk size: 64279.5 Kb)
+1653.441 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 23200 files added (on-disk size: 64279.5 Kb)
+1653.831 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 23300 files added (on-disk size: 64279.5 Kb)
+1654.361 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 23400 files added (on-disk size: 64279.5 Kb)
+1654.741 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.2 Mb, 25101 files batched, 501 (23497) added so far); re-opening (prior size: 64279.5 Kb)
+1673.210 (0) The time we have been running (1672.8) is approaching the resumption interval (1682) - increasing resumption interval to 1703
+1673.550 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 23500 files added (on-disk size: 64963.5 Kb)
+1673.930 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 23600 files added (on-disk size: 64963.5 Kb)
+1674.621 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 23700 files added (on-disk size: 64963.5 Kb)
+1674.981 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 23800 files added (on-disk size: 64963.5 Kb)
+1675.381 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 23900 files added (on-disk size: 64963.5 Kb)
+1675.951 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 Mb, 25101 files batched, 501 (23998) added so far); re-opening (prior size: 64963.5 Kb)
+1707.086 (0) The time we have been running (1706.1) is approaching the resumption interval (1703) - increasing resumption interval to 1737
+1707.306 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 24000 files added (on-disk size: 65821.4 Kb)
+1707.747 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 24100 files added (on-disk size: 65821.4 Kb)
+1708.217 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 24200 files added (on-disk size: 65821.4 Kb)
+1708.697 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 24300 files added (on-disk size: 65821.4 Kb)
+1709.068 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 24400 files added (on-disk size: 65821.4 Kb)
+1709.368 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 Mb, 481 (24479) files added so far); re-opening (prior size: 65821.4 Kb)
+1729.226 (0) The time we have been running (1728.8) is approaching the resumption interval (1737) - increasing resumption interval to 1759
+1729.556 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 24500 files added (on-disk size: 66212.3 Kb)
+1730.527 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 24600 files added (on-disk size: 66212.3 Kb)
+1730.939 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 24700 files added (on-disk size: 66212.3 Kb)
+1731.309 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 24800 files added (on-disk size: 66212.3 Kb)
+1731.369 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 Mb, 322 (24801) files added so far); re-opening (prior size: 66212.3 Kb)
+1738.494 (0) The time we have been running (1738) is approaching the resumption interval (1759) - increasing resumption interval to 1769
+1739.116 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 24900 files added (on-disk size: 66378.9 Kb)
+1739.546 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 25000 files added (on-disk size: 66378.9 Kb)
+1741.997 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 Mb, 291 (25092) files added so far); re-opening (prior size: 66378.9 Kb)
+1764.951 (0) The time we have been running (1764.5) is approaching the resumption interval (1769) - increasing resumption interval to 1795
+1765.341 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip.tmp: 25100 files added (on-disk size: 66978.3 Kb)
+1770.576 (0) The time we have been running (1769.7) is approaching the resumption interval (1795) - increasing resumption interval to 1800
+1771.016 (0) Created themes zip (0) - 67368.5 Kb in 1595.2 s (42.2 Kb/s) (SHA1 checksum: 3a267cb37a4e757db3cd06cbe2324a19c899ef8c)
+1771.206 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+1771.266 (0) Looking for candidates to back up in: C:\wamp2.5\www\instrumed/wp-content/uploads
+1771.346 (0) finding files: 2015: adding to list (1)
+1771.436 (0) finding files: 2016: adding to list (2)
+1771.516 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+1771.686 (0) Total entities for the zip file: 7 directories, 40 files (0 skipped as non-modified), 18.5 Mb
+1777.470 (0) The time we have been running (1777.2) is approaching the resumption interval (1800) - increasing resumption interval to 1808
+1777.830 (0) Created uploads zip (0) - 18427.5 Kb in 6.2 s (2951.2 Kb/s) (SHA1 checksum: 7ce515db1d5c676f17159adcef244a0381f454b0)
+1778.210 (0) Beginning backup of other directories found in the content directory (index: 0)
+1778.290 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql
+1778.367 (0) Looking for candidates to back up in: C:\wamp2.5\www\instrumed/wp-content
+1778.439 (0) finding files: .git: adding to list (1)
+1778.529 (0) finding files: index.php: adding to list (2)
+1778.669 (0) finding files: plugins: skipping: this is the plugins directory
+1778.799 (0) finding files: themes: skipping: this is the themes directory
+1778.869 (0) finding files: updraft: skipping: this is the updraft directory
+1778.979 (0) finding files: upgrade: skipping: excluded by options
+1779.049 (0) finding files: uploads: skipping: this is the uploads directory
+1780.256 (0) Total entities for the zip file: 272 directories, 3130 files (0 skipped as non-modified), 57 Mb
+1780.426 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 100 files added (on-disk size: 0 Kb)
+1780.556 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 200 files added (on-disk size: 0 Kb)
+1780.726 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 300 files added (on-disk size: 0 Kb)
+1780.886 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 400 files added (on-disk size: 0 Kb)
+1781.006 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 500 files added (on-disk size: 0 Kb)
+1781.076 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12 Mb, 3130 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+1782.246 (0) The time we have been running (1781.7) is approaching the resumption interval (1808) - increasing resumption interval to 1812
+1782.506 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 600 files added (on-disk size: 12146.9 Kb)
+1782.656 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 700 files added (on-disk size: 12146.9 Kb)
+1782.836 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 800 files added (on-disk size: 12146.9 Kb)
+1783.006 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 900 files added (on-disk size: 12146.9 Kb)
+1783.166 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 1000 files added (on-disk size: 12146.9 Kb)
+1783.246 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.7 Mb, 3130 files batched, 501 (1002) added so far); re-opening (prior size: 12146.9 Kb)
+1784.109 (0) The time we have been running (1783.6) is approaching the resumption interval (1812) - increasing resumption interval to 1814
+1784.359 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 1100 files added (on-disk size: 18077.1 Kb)
+1784.509 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 1200 files added (on-disk size: 18077.1 Kb)
+1784.659 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 1300 files added (on-disk size: 18077.1 Kb)
+1784.839 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 1400 files added (on-disk size: 18077.1 Kb)
+1784.983 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 1500 files added (on-disk size: 18077.1 Kb)
+1785.057 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.8 Mb, 3130 files batched, 501 (1503) added so far); re-opening (prior size: 18077.1 Kb)
+1785.718 (0) The time we have been running (1785.3) is approaching the resumption interval (1814) - increasing resumption interval to 1816
+1786.001 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 1600 files added (on-disk size: 22048.3 Kb)
+1786.201 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 1700 files added (on-disk size: 22048.3 Kb)
+1786.391 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 1800 files added (on-disk size: 22048.3 Kb)
+1786.601 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 1900 files added (on-disk size: 22048.3 Kb)
+1786.761 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 2000 files added (on-disk size: 22048.3 Kb)
+1786.841 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.5 Mb, 3130 files batched, 501 (2004) added so far); re-opening (prior size: 22048.3 Kb)
+1787.584 (0) The time we have been running (1787.2) is approaching the resumption interval (1816) - increasing resumption interval to 1818
+1787.924 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 2100 files added (on-disk size: 27797.2 Kb)
+1788.416 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 2200 files added (on-disk size: 27797.2 Kb)
+1789.099 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 2300 files added (on-disk size: 27797.2 Kb)
+1789.249 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 2400 files added (on-disk size: 27797.2 Kb)
+1789.419 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 2500 files added (on-disk size: 27797.2 Kb)
+1789.509 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.7 Mb, 3130 files batched, 501 (2505) added so far); re-opening (prior size: 27797.2 Kb)
+1791.169 (0) The time we have been running (1789.8) is approaching the resumption interval (1818) - increasing resumption interval to 1820
+1791.829 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 2600 files added (on-disk size: 31664.6 Kb)
+1792.892 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 2700 files added (on-disk size: 31664.6 Kb)
+1793.335 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 2800 files added (on-disk size: 31664.6 Kb)
+1793.525 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 2900 files added (on-disk size: 31664.6 Kb)
+1793.675 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 Mb added on this batch (25.3 Mb, 3130 files batched, 490 (2995) added so far); re-opening (prior size: 31664.6 Kb)
+1797.449 (0) The time we have been running (1796.8) is approaching the resumption interval (1820) - increasing resumption interval to 1827
+1797.529 (0) A useful amount of data was added after this amount of zip processing: 6.2 s (normalised: 6.1 s, rate: 4196.6 Kb/s)
+1797.819 (0) The time we have been running (1797.5) is approaching the resumption interval (1827) - increasing resumption interval to 1828
+1798.531 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 3000 files added (on-disk size: 57651.2 Kb)
+1798.812 (0) Zip: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip.tmp: 3100 files added (on-disk size: 57651.2 Kb)
+1799.512 (0) The time we have been running (1799.2) is approaching the resumption interval (1828) - increasing resumption interval to 1830
+1800.185 (0) Created others zip (0) - 58731.5 Kb in 21 s (2791.9 Kb/s) (SHA1 checksum: b41b3da2466afd6e442b27dc2017940d9fc2be9e)
+1800.495 (0) Saving backup status to database (elements: 8)
+1800.585 (0) No database backup (wp) - not part of this run
+1800.695 (0) Saving backup history
+1800.905 (0) backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1801.005 (0) backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1801.076 (0) backup_2016-01-12-1839_InstruMed_40eeca79d21d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1801.166 (0) backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip: others: This file has not yet been successfully uploaded: will queue
+1801.386 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+1801.606 (0) Cloud backup selection (1/1): s3 (last)
+1801.686 (0) Beginning dispatch of backup to remote (s3)
+1802.565 (0) S3 upload (): backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip (chunks: 3) -> s3://Instru-med/backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip
+1802.905 (0) S3 chunked upload: got multipart ID: 7RgZUHdp2I6Xh7kPlROCmfJq64EJ4pTgXsRBPyxbCxm8QusV0nKtgfgTI1_AYnsQeZxFUgyBOzLHIR1wpSlNKw--
+1817.078 (0) The time we have been running (1816.5) is approaching the resumption interval (1830) - increasing resumption interval to 1847
+1817.328 (0) S3 chunked upload: 33.3 % uploaded (1, "27d0086a03cd510a58d5368fd8e60fff")
+1832.325 (0) The time we have been running (1831.9) is approaching the resumption interval (1847) - increasing resumption interval to 1862
+1832.510 (0) S3 chunked upload: 66.7 % uploaded (2, "c7e1bb22d1a9757e057a249fe66ddca3")
+1843.575 (0) The time we have been running (1843.3) is approaching the resumption interval (1862) - increasing resumption interval to 1874
+1843.645 (0) S3 chunked upload: 100 % uploaded (3, "1476f4a57c1cb7e2b856015b5f27ba66")
+1843.745 (0) S3 upload: all chunks uploaded; will now instruct S3 to re-assemble
+1844.005 (0) S3 upload (plugins0): re-assembly succeeded
+1844.195 (0) Recording as successfully uploaded: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip (490cfb940d25b5e26590c1f350d7891c)
+1844.493 (0) Deleting local file: backup_2016-01-12-1839_InstruMed_40eeca79d21d-plugins.zip: OK
+1844.543 (0) S3 upload (): backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip (chunks: 14) -> s3://Instru-med/backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip
+1844.633 (0) S3 chunked upload: got multipart ID: 1tdLlQk6L8huK7z203sdH.i0tLXXKLM9Ek_1qxerEiXj5l9csdfhU__w93jwGRu0Aa9GZ2uRieP_1t4_TpstIQ--
+1858.818 (0) The time we have been running (1858.4) is approaching the resumption interval (1874) - increasing resumption interval to 1889
+1859.038 (0) S3 chunked upload: 7.1 % uploaded (1, "2ef26bec5a04be2ade10207b043265ec")
+1873.175 (0) The time we have been running (1872.7) is approaching the resumption interval (1889) - increasing resumption interval to 1903
+1873.365 (0) S3 chunked upload: 14.3 % uploaded (2, "612c8b39d91262288ac87d698eb54f6b")
+1887.177 (0) The time we have been running (1886.7) is approaching the resumption interval (1903) - increasing resumption interval to 1917
+1887.257 (0) S3 chunked upload: 21.4 % uploaded (3, "e6c9759d961193d1041e119036444c07")
+1900.872 (0) The time we have been running (1900.5) is approaching the resumption interval (1917) - increasing resumption interval to 1931
+1901.042 (0) S3 chunked upload: 28.6 % uploaded (4, "33ac3d4886fb6e53a9f31aa3bccc9db2")
+1914.323 (0) The time we have been running (1913.9) is approaching the resumption interval (1931) - increasing resumption interval to 1944
+1914.523 (0) S3 chunked upload: 35.7 % uploaded (5, "4ca15e5c18e6374a5f9c0d82258fa9fe")
+1927.880 (0) The time we have been running (1927.5) is approaching the resumption interval (1944) - increasing resumption interval to 1958
+1928.050 (0) S3 chunked upload: 42.9 % uploaded (6, "6fbd1625fb05ae5f22f5b0a85186beb6")
+1941.459 (0) The time we have been running (1941) is approaching the resumption interval (1958) - increasing resumption interval to 1972
+1941.619 (0) S3 chunked upload: 50 % uploaded (7, "a71454ca64b4a47d14101b6b9b1b5515")
+1955.536 (0) The time we have been running (1955.1) is approaching the resumption interval (1972) - increasing resumption interval to 1986
+1955.774 (0) S3 chunked upload: 57.1 % uploaded (8, "be87331ef6116e89a6714f0987b36bc3")
+1969.253 (0) The time we have been running (1968.9) is approaching the resumption interval (1986) - increasing resumption interval to 1999
+1969.413 (0) S3 chunked upload: 64.3 % uploaded (9, "41a32b775630c2fd43ea43a9846b0b37")
+1982.330 (0) The time we have been running (1981.6) is approaching the resumption interval (1999) - increasing resumption interval to 2012
+1982.520 (0) S3 chunked upload: 71.4 % uploaded (10, "78b3e43e778c78718c9573e72ab5c97e")
+1995.755 (0) The time we have been running (1995.4) is approaching the resumption interval (2012) - increasing resumption interval to 2026
+1995.922 (0) S3 chunked upload: 78.6 % uploaded (11, "4bab148302dc2a1776231e69e58b0a67")
+2009.015 (0) The time we have been running (2008.5) is approaching the resumption interval (2026) - increasing resumption interval to 2039
+2009.245 (0) S3 chunked upload: 85.7 % uploaded (12, "9f6cf3ed310e9ea163a8b895c016bf4f")
+2022.576 (0) The time we have been running (2022.1) is approaching the resumption interval (2039) - increasing resumption interval to 2053
+2022.876 (0) S3 chunked upload: 92.9 % uploaded (13, "86c986bbf2421ec8278d94b570b4e2b4")
+2025.640 (0) The time we have been running (2025.2) is approaching the resumption interval (2053) - increasing resumption interval to 2056
+2025.790 (0) S3 chunked upload: 100 % uploaded (14, "c53347b01ce18b50ebede0e073817ebf")
+2026.210 (0) S3 upload: all chunks uploaded; will now instruct S3 to re-assemble
+2026.490 (0) S3 upload (themes0): re-assembly succeeded
+2026.710 (0) Recording as successfully uploaded: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip (4dffba7d50ddc95dd27c42fe653ceb56)
+2026.970 (0) Deleting local file: backup_2016-01-12-1839_InstruMed_40eeca79d21d-themes.zip: OK
+2027.121 (0) S3 upload (): backup_2016-01-12-1839_InstruMed_40eeca79d21d-uploads.zip (chunks: 4) -> s3://Instru-med/backup_2016-01-12-1839_InstruMed_40eeca79d21d-uploads.zip
+2027.321 (0) S3 chunked upload: got multipart ID: Dc5Cevro6ZaiSh3muKzatmkVBOBS.z2JtfpLwTkA4bslZ63CV0_gjIEaqSEH.8TiONtw2bavrBCN9cXYWYmJaA--
+2040.025 (0) The time we have been running (2039.8) is approaching the resumption interval (2056) - increasing resumption interval to 2070
+2040.166 (0) S3 chunked upload: 25 % uploaded (1, "ee8d9a6038263299719ab9ea2df478ee")
+2053.205 (0) The time we have been running (2052.9) is approaching the resumption interval (2070) - increasing resumption interval to 2083
+2053.425 (0) S3 chunked upload: 50 % uploaded (2, "faca436c6f82d00998afcf95437e549b")
+2066.159 (0) The time we have been running (2065.7) is approaching the resumption interval (2083) - increasing resumption interval to 2096
+2066.389 (0) S3 chunked upload: 75 % uploaded (3, "6a491ba920c9decfb5938a7a6be6a527")
+2074.265 (0) The time we have been running (2073.9) is approaching the resumption interval (2096) - increasing resumption interval to 2104
+2074.425 (0) S3 chunked upload: 100 % uploaded (4, "f4767b544205eab479ec182cbdadb83d")
+2074.805 (0) S3 upload: all chunks uploaded; will now instruct S3 to re-assemble
+2075.035 (0) S3 upload (uploads0): re-assembly succeeded
+2075.175 (0) Recording as successfully uploaded: backup_2016-01-12-1839_InstruMed_40eeca79d21d-uploads.zip (3d27837265a5c73f30e6303390edc3c4)
+2075.425 (0) Deleting local file: backup_2016-01-12-1839_InstruMed_40eeca79d21d-uploads.zip: OK
+2075.555 (0) S3 upload (): backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip (chunks: 12) -> s3://Instru-med/backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip
+2075.805 (0) S3 chunked upload: got multipart ID: TIx5vPjHaGs.TtWblUt6gGSIkDXagZVQviOvhXNzpVtIFNGzIwmIjFACbbgjgzJfySz0r13BiseBPxqovCq1xA--
+2088.745 (0) The time we have been running (2088.3) is approaching the resumption interval (2104) - increasing resumption interval to 2119
+2088.925 (0) S3 chunked upload: 8.3 % uploaded (1, "1d5901419f6e876404e834e65ea1d0ce")
+2102.052 (0) The time we have been running (2101.6) is approaching the resumption interval (2119) - increasing resumption interval to 2132
+2102.362 (0) S3 chunked upload: 16.7 % uploaded (2, "44b398a27e8a674cc8706dc781f22ff6")
+2115.457 (0) The time we have been running (2115) is approaching the resumption interval (2132) - increasing resumption interval to 2146
+2115.647 (0) S3 chunked upload: 25 % uploaded (3, "c52337f991f06a845402f1712010c5d2")
+2128.288 (0) The time we have been running (2127.7) is approaching the resumption interval (2146) - increasing resumption interval to 2158
+2128.448 (0) S3 chunked upload: 33.3 % uploaded (4, "fbcda03db2da3dc04a5164fc4fc0185a")
+2141.402 (0) The time we have been running (2140.9) is approaching the resumption interval (2158) - increasing resumption interval to 2171
+2141.585 (0) S3 chunked upload: 41.7 % uploaded (5, "f32ce771df42dac419f0bf722c600ed0")
+2154.606 (0) The time we have been running (2154.1) is approaching the resumption interval (2171) - increasing resumption interval to 2185
+2154.786 (0) S3 chunked upload: 50 % uploaded (6, "5ae117f4fd6703fdb55b418bd9d6e16b")
+2167.698 (0) The time we have been running (2167.3) is approaching the resumption interval (2185) - increasing resumption interval to 2198
+2168.087 (0) S3 chunked upload: 58.3 % uploaded (7, "895faf88c1acb2dc32f4f7d13af939d8")
+2181.318 (0) The time we have been running (2180.9) is approaching the resumption interval (2198) - increasing resumption interval to 2211
+2181.528 (0) S3 chunked upload: 66.7 % uploaded (8, "9f25728ad7e6404ef89d29c72086e136")
+2194.838 (0) The time we have been running (2194.3) is approaching the resumption interval (2211) - increasing resumption interval to 2225
+2194.958 (0) S3 chunked upload: 75 % uploaded (9, "0d442287a9a102e8729bd05cd6ab4a70")
+2207.960 (0) The time we have been running (2207.6) is approaching the resumption interval (2225) - increasing resumption interval to 2238
+2208.174 (0) S3 chunked upload: 83.3 % uploaded (10, "2f067b59551eab44776b18fed63a4669")
+2220.713 (0) The time we have been running (2220.3) is approaching the resumption interval (2238) - increasing resumption interval to 2251
+2220.973 (0) S3 chunked upload: 91.7 % uploaded (11, "187c87ed30f8f13920a07c8b2c663485")
+2227.379 (0) The time we have been running (2227) is approaching the resumption interval (2251) - increasing resumption interval to 2257
+2227.549 (0) S3 chunked upload: 100 % uploaded (12, "9e03ff790eef20fad7136ef2b25690b2")
+2227.849 (0) S3 upload: all chunks uploaded; will now instruct S3 to re-assemble
+2228.361 (0) S3 upload (others0): re-assembly succeeded
+2228.571 (0) Recording as successfully uploaded: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip (398e7c05cce73b04b027b02751645200)
+2228.961 (0) Deleting local file: backup_2016-01-12-1839_InstruMed_40eeca79d21d-others.zip: OK
+2229.173 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=5
+2229.362 (0) Number of backup sets in history: 9
+2229.452 (0) Examining backup set with datestamp: 1452623958 (Jan 12 2016 18:39:18)
+2229.562 (0) 1452623958: this backup set remains non-empty (1/0); will retain in history
+2229.622 (0) Examining backup set with datestamp: 1452623937 (Jan 12 2016 18:38:57)
+2229.693 (0) 1452623937: this backup set remains non-empty (0/1); will retain in history
+2229.773 (0) Examining backup set with datestamp: 1448389928 (Nov 24 2015 18:32:08)
+2229.873 (0) 1448389928: this backup set remains non-empty (1/0); will retain in history
+2230.093 (0) Examining backup set with datestamp: 1448389894 (Nov 24 2015 18:31:34)
+2230.185 (0) 1448389894: this backup set remains non-empty (0/1); will retain in history
+2230.295 (0) Examining backup set with datestamp: 1444879970 (Oct 15 2015 03:32:50)
+2230.535 (0) 1444879970: this backup set remains non-empty (1/0); will retain in history
+2230.796 (0) Examining backup set with datestamp: 1444879791 (Oct 15 2015 03:29:51)
+2231.330 (0) 1444879791: this backup set remains non-empty (0/1); will retain in history
+2231.679 (0) Examining backup set with datestamp: 1442892877 (Sep 22 2015 03:34:37)
+2231.869 (0) 1442892877: this backup set remains non-empty (0/1); will retain in history
+2232.263 (0) Examining backup set with datestamp: 1442323346 (Sep 15 2015 13:22:26)
+2232.543 (0) 1442323346: this backup set remains non-empty (0/1); will retain in history
+2232.803 (0) Examining backup set with datestamp: 1441753226 (Sep 08 2015 23:00:26)
+2233.186 (0) 1441753226: this backup set remains non-empty (1/0); will retain in history
+2233.557 (0) Retain: saving new backup history (sets now: 9) and finishing retain operation
+2234.250 (0) Resume backup (40eeca79d21d, 0): finish run
+2234.817 (0) Decremented the semaphore (f) by 1
+2235.601 (0) Semaphore (f) unlocked
+2235.931 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2236.824 (0) The backup has not finished; a resumption is scheduled

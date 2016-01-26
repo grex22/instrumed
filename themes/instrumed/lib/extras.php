@@ -49,3 +49,41 @@ function more_table_classes_tinymce($settings) {
 	return $settings;
 }
 add_filter('tiny_mce_before_init', __NAMESPACE__ . '\\more_table_classes_tinymce');
+
+
+function supplier_survey($atts) {
+	if(get_field('approved_supplier_survey','options')):
+    return "<hr><h4><a href='".get_field('approved_supplier_survey','options')."' target='_blank'><i class='fa fa-file-pdf-o'></i> Download the Approved Supplier Survey &raquo;</a></h4><hr>";
+  endif;
+}
+add_shortcode( 'suppliersurvey', __NAMESPACE__ . '\\supplier_survey' );
+
+
+
+function my_password_form() {
+    global $post;
+    $label = 'pwbox-'.( empty( $post->ID ) ? rand() : $post->ID );
+    $o = '<form action="' . esc_url( site_url( 'wp-login.php?action=postpass', 'login_post' ) ) . '" method="post">
+    ' . __( "<p><strong>If your company is ISO 13485 or ISO 9001 certified (or equivalent) you may disregard the survey and instead send a copy of your certificate to your Instru-med representative</strong></p><p>Our supplier survey is password protected. To gain access to this form, enter the password below. If you do not have this password, please contact your Instru-med representative.</p>" ) . '
+    <p><label for="' . $label . '">' . __( "Password:" ) . ' </label><input name="post_password" id="' . $label . '" type="password" size="20" maxlength="20" /><input type="submit" name="Submit" value="' . esc_attr__( "Submit" ) . '" />
+    </p></form>
+    ';
+    return $o;
+}
+add_filter( 'the_password_form', __NAMESPACE__ . '\\my_password_form' );
+
+
+function the_title_trim($title) {
+	$title = attribute_escape($title);
+	$findthese = array(
+		'#Protected:#',
+		'#Private:#'
+	);
+	$replacewith = array(
+		'', // What to replace "Protected:" with
+		'' // What to replace "Private:" with
+	);
+	$title = preg_replace($findthese, $replacewith, $title);
+	return $title;
+}
+add_filter('the_title', __NAMESPACE__ . '\\the_title_trim');

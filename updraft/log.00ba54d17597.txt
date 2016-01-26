@@ -1,0 +1,8 @@
+0000.000 (0) Opened log file at time: Tue, 12 Jan 2016 18:40:35 +0000 on http://localhost/instrumed
+0000.090 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.12 WP: 4.3.2 PHP: 5.5.12 (Windows NT RIPFISH 6.1 build 7601 (Windows 7 Home Premium Edition Service Pack 1) AMD64) MySQL: 5.6.17 Server: Apache/2.4.9 (Win64) PHP/5.5.12 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.6M | 40M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.190 (0) Free space on disk containing Updraft's temporary directory: 114807.9 Mb
+0000.280 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: weekly)
+0000.373 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.467 (0) Requesting semaphore lock (f)
+0000.556 (0) Semaphore lock (f) failed (line 41)
+0000.637 (0) Failed to gain semaphore lock (f) - another backup of this type is apparently already active - aborting (if this is wrong - i.e. if the other backup crashed without removing the lock, then another can be started after 3 minutes)

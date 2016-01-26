@@ -34,7 +34,7 @@ unset($file, $filepath);
 if( function_exists('acf_add_options_page') ) {
 	
 	acf_add_options_page(array(
-		'page_title' 	=> 'Theme General Settings',
+		'page_title' 	=> 'Instru-med Options',
 		'menu_title'	=> 'Instru-med Options',
 		'menu_slug' 	=> 'instru-med-options',
 	));
