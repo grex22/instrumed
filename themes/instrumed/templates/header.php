@@ -1,5 +1,6 @@
 <ul class="mobile_nav visible-xs">
   <?php wp_nav_menu( array( 'theme_location' => 'mobile_drawer_menu', 'depth' => 1, 'container' => false) ); ?>
+  <li id="menu-item-310" class="menu-item menu-item-310"><a href="<?php echo get_permalink(get_page_by_path('request-a-quote')); ?>"><i class="fa fa-file-text blue"></i> Request a Quote</a></li>
 </ul>
 <div id="sitewrap">
   <header id="navheader">
