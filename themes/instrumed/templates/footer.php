@@ -5,13 +5,13 @@
         <img src="<?php echo get_template_directory_uri(); ?>/dist/images/instrumed-logo-g.png">
         <?php dynamic_sidebar('sidebar-footer'); ?>
       </div>
-      <div class="col-sm-3 col-xs-4">
+      <div class="col-sm-3 col-xs-6">
         <?php dynamic_sidebar('sidebar-footer-2'); ?>
       </div>
-      <div class="col-sm-3 col-xs-4">
+      <div class="col-sm-3 col-xs-6">
         <?php dynamic_sidebar('sidebar-footer-3'); ?>
       </div>
-      <div class="col-sm-3 col-xs-4">
+      <div class="col-sm-3 col-xs-12">
         <?php dynamic_sidebar('sidebar-footer-4'); ?>
         
         <div class="btn-group btn-group-social">

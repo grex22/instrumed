@@ -741,7 +741,7 @@ section.layout-image_grid{
 
 .widget_search .input-group{width:100%;}
 
-.widget{margin-bottom:48px;}
+
 
 .list-events{
   margin:15px 0;
@@ -764,6 +764,7 @@ aside.sidebar{
   @media(max-width:767px){
     padding-left:15px;
   }
+  .widget{margin-bottom:48px;}
 }
 aside.sidebar .menu-main-navigation-container{
   margin-bottom:50px;
