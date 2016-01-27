@@ -173,7 +173,13 @@ use Roots\Sage\Wrapper;
     <div id="subheader">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4"><h5><?php the_title(); ?></h5></div>
+          <div class="col-sm-4"><h5><?php
+            if(is_search()):
+              echo "Search";
+            else:
+              the_title();
+            endif;
+          ?></h5></div>
           <div class="col-sm-8 text-right">
             <?php wp_nav_plus(array('theme_location'=>'primary_navigation','start_depth'=>1,'depth'=>1,'menu_class'=>'subnav list-inline list-unstyled')); ?>
           </div>
@@ -184,13 +190,18 @@ use Roots\Sage\Wrapper;
       <div class="jumbotron" style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/<?php the_field('intro_background'); ?>');">
         
         <div class="container">
-          <div class="row">
-            <?php
+          <div class="row"><?php
+            if(is_search()):
+              $title = "Search Results for &quot;" . get_search_query() . "&quot;";
+            else:
+            
               $title = get_field('intro_title');
               $paragraph = get_field('intro_paragraph');
               $show_button = get_field('intro_display_button');
               $buttontext = get_field('intro_button_text');
               $buttonlink = get_field('intro_button_link');
+              
+            endif;  
             ?>
             <div class="col-xs-12 col-sm-7">
               <h1><?php if($title): echo $title; else: the_title(); endif; ?></h1>
