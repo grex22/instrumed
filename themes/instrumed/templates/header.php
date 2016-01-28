@@ -10,7 +10,8 @@
           <a href="<?php echo bloginfo('url'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/instrumed-logo.png" width="195" height="auto"></a>
         </div>
         <div class="col-xs-9 text-right">
-          <a href="<?php echo get_permalink('contact-us'); ?>" class="btn btn-primary pull-right">How can we help?</a>
+          <a href="<?php echo get_permalink(8); ?>" class="pull-right"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/certs.png" width="auto" height="auto"></a>
+          <a href="<?php echo get_permalink('contact-us'); ?>" class="btn btn-primary pull-right visible-lg visible-xl">How can we help?</a>
           <ul class="nav navbar-nav pull-right">
             <?php wp_nav_menu( array( 'theme_location' => 'primary_navigation', 'walker' => new Bootstrap_Nav_Walker(), 'container' => false,  'items_wrap' => '%3$s') ); ?>
           </ul>

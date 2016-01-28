@@ -195,6 +195,7 @@ header#navheader{
         color:$warmgray;
       }
       &>a{
+        padding:15px 9px;
         height: 90px;
         box-sizing: border-box;
         margin-bottom: -35px;
@@ -434,7 +435,10 @@ ul.mobile_nav{
       font-weight:600;
       line-height:31px;
       margin: 10px auto 30px;
-      text-shadow:0 0 5px rgba(0,0,0,.5);
+      text-shadow:0 0 5px rgba(0,0,0,.4);
+      .btn{
+        text-shadow:none;
+      }
       @media(max-width:700px){
         width:95%;
         font-size:21px;

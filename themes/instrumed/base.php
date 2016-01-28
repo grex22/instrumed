@@ -69,13 +69,13 @@ use Roots\Sage\Wrapper;
           <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature2.png"></a>
           <h4>Design and Prototyping Services</h4>
           <p>Gubergren, no sea takimata sanctus est Lorem ipsum dolor quantas sic sit amet. Lorem ipsum dolor sit amet, conset</p>
-          <a href="#">How we integrate with you...</a>
+          <a href="<?php echo get_permalink(174); ?>">From Print to Prototype...</a>
         </div>
         <div class="col-sm-4 features">
           <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature3.png"></a>
           <h4>Industry Certifications</h4>
           <p>Gubergren, no sea takimata ipsum dolor quantas sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, conset</p>
-          <a href="#">Our Industry Certifications...</a>
+          <a href="<?php echo get_permalink(8); ?>">Our Commitment to Quality...</a>
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@ use Roots\Sage\Wrapper;
           <div class="col-md-6 content align-help">
             <h2>Enterprise-Grade Manufacturing Processes and Materials</h2>
             <p class="highlighted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor consetetur sadipscing elitr consetetur sadipscing elitr quantas san trinto invidun empor invidunt ut labore et do.</p>
-            <a href="<?php echo get_permalink(11); ?>" class="btn btn-primary btn-lg">Learn More</a>
+            <a href="<?php echo get_permalink(118); ?>" class="btn btn-primary btn-lg">Learn More</a>
           </div>
         </div>
       </div>

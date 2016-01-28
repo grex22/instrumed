@@ -1,7 +1,9 @@
-.gfield_select{
+.gfield_select,
+.gfield select{
   padding:7px;
 }
-.gform_button{
+.gform_button,
+.gform_next_button{
   @extend .btn;
   @extend .btn-primary;
 }
