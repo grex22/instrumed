@@ -60,19 +60,19 @@ use Roots\Sage\Wrapper;
     <div class="container">
       <div class="row" id="three_features">
         <div class="col-sm-4 features">
-          <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature1.png"></a>
+          <a href="<?php echo get_permalink(118); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature1.png"></a>
           <h4>Precision Manufacturing</h4>
           <p>Instru-med utilizes the latest in lean-manufacturing to meet the needs of any project.</p>
           <a href="<?php echo get_permalink(118); ?>">Our Process...</a>
         </div>
         <div class="col-sm-4 features">
-          <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature2.png"></a>
+          <a href="<?php echo get_permalink(174); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature2.png"></a>
           <h4>Design and Prototyping Services</h4>
           <p>Our Prototype team is dedicated to bringing your concept to life.</p>
           <a href="<?php echo get_permalink(174); ?>">From Print to Prototype...</a>
         </div>
         <div class="col-sm-4 features">
-          <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature3.png"></a>
+          <a href="<?php echo get_permalink(8); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature3.png"></a>
           <h4>Industry Certifications</h4>
           <p>Our industry certifications are at the forefront of our commitment to quality.</p>
           <a href="<?php echo get_permalink(8); ?>">Our Commitment to Quality...</a>
