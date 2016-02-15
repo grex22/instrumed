@@ -79,6 +79,7 @@ use Roots\Sage\Wrapper;
         </div>
       </div>
     </div>
+    <!--
     <section id="benefit-1" class="">
       <div class="container">
         <div class="row">
@@ -93,6 +94,7 @@ use Roots\Sage\Wrapper;
         </div>
       </div>
     </section>
+    -->
     <div class="container">
       <div class="row more_padded screen-sm-text-center">
         <div class="col-md-6">
@@ -159,7 +161,7 @@ use Roots\Sage\Wrapper;
       <div class="container">
         <div class="row">
           <div class="col-sm-6 content align-help padded">
-            <h2 class="blue">Quality. Precision. Reliability.<br>Instru-med is your design partner.</h2>
+            <h2 class="blue">Instru-med is your Contract Manufacturing Source</h2>
             <p class="highlighted">We at Instru-med pride ourselves in meeting the needs of our customers and providing quality, on-time product through highly skilled employees, and state-of-the-art technology.</p>
             <a href="<?php echo get_permalink(17);?>" class="btn btn-primary btn-lg">Request a Quote</a>
             <a href="<?php echo get_permalink(9);?>" class="btn btn-secondary btn-lg">How Can We Help</a>
