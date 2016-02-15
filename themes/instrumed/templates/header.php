@@ -6,10 +6,10 @@
   <header id="navheader">
     <div class="container-fluid width-control">
       <div class="row header hidden-xs">
-        <div class="col-xs-3 brand">
+        <div class="col-xs-2 brand">
           <a href="<?php echo bloginfo('url'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/instrumed-logo.png" width="195" height="auto"></a>
         </div>
-        <div class="col-xs-9 text-right">
+        <div class="col-xs-10 text-right">
           <a href="<?php echo get_permalink(8); ?>" class="pull-right"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/certs.png" width="auto" height="auto"></a>
           <a href="<?php echo get_permalink('contact-us'); ?>" class="btn btn-primary pull-right visible-lg visible-xl">How can we help?</a>
           <ul class="nav navbar-nav pull-right">
