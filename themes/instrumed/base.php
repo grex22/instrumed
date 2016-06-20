@@ -67,7 +67,7 @@ use Roots\Sage\Wrapper;
         </div>
         <div class="col-sm-4 features">
           <a href="<?php echo get_permalink(174); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/feature2.png"></a>
-          <h4>Design and Prototyping Services</h4>
+          <h4>Prototyping Services</h4>
           <p>Our Prototype team is dedicated to bringing your concept to life.</p>
           <a href="<?php echo get_permalink(174); ?>">From Print to Prototype...</a>
         </div>
@@ -102,7 +102,7 @@ use Roots\Sage\Wrapper;
           <p class="highlighted">Follow Instru-med for the latest updates and news from the orthopedics capital of the world, Warsaw, Indiana!</p>
           <p class="highlighted">Find us on the following social networks:</p>
           <div class="btn-group btn-group-social">
-            <?php 
+            <?php
               $tw = get_field('twitter_address','option');
               $fb = get_field('facebook_address','option');
               $gp = get_field('google+_address','option');
@@ -113,9 +113,9 @@ use Roots\Sage\Wrapper;
             <?php if($gp){ ?><a href="<?php echo $gp; ?>"><i class="fa fa-google-plus-square"></i></a><?php } ?>
             <?php if($fb){ ?><a href="<?php echo $fb; ?>"><i class="fa fa-facebook-square"></i></a><?php } ?>
           </div>
-          
+
           <?php
-          
+
           $events = get_posts(array(
             'post_type' => 'event',
             'posts_per_page'	=> 2,
@@ -148,7 +148,7 @@ use Roots\Sage\Wrapper;
           else:
             //echo "<em>There are no upcoming events at this time, but check back soon!</em>";
           endif;
-          
+
           ?>
         </div>
         <div class="col-md-6">
@@ -171,7 +171,7 @@ use Roots\Sage\Wrapper;
       </div>
     </section>
     <?php else: //if NOT front page ?>
-    
+
     <div id="subheader">
       <div class="container">
         <div class="row">
@@ -190,20 +190,20 @@ use Roots\Sage\Wrapper;
     </div>
     <div class="page_header_cta">
       <div class="jumbotron" style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/<?php the_field('intro_background'); ?>');">
-        
+
         <div class="container">
           <div class="row"><?php
             if(is_search()):
               $title = "Search Results for &quot;" . get_search_query() . "&quot;";
             else:
-            
+
               $title = get_field('intro_title');
               $paragraph = get_field('intro_paragraph');
               $show_button = get_field('intro_display_button');
               $buttontext = get_field('intro_button_text');
               $buttonlink = get_field('intro_button_link');
-              
-            endif;  
+
+            endif;
             ?>
             <div class="col-xs-12 col-sm-7">
               <h1><?php if($title): echo $title; else: the_title(); endif; ?></h1>
@@ -223,7 +223,7 @@ use Roots\Sage\Wrapper;
     <?php else: ?>
       <div class="wrap container">
         <div class="content row">
-          
+
           <main class="main" role="main">
             <?php include Wrapper\template_path(); ?>
           </main>
@@ -235,7 +235,7 @@ use Roots\Sage\Wrapper;
         </div>
       </div>
     <?php endif; ?>
-    
+
     <?php endif; //endif is not front page ?>
     <?php
       do_action('get_footer');
@@ -251,13 +251,13 @@ use Roots\Sage\Wrapper;
 
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-     
+
 
       ga('create', 'UA-73517902-1', 'auto');
 
       ga('send', 'pageview');
 
-     
+
 
     </script>
   </body>
