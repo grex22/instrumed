@@ -111,6 +111,22 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
   border:none!important;
 }
 
+.element-item{
+	width:25%;
+	display:inline-block;
+	box-sizing: border-box;
+	padding:6px;
+	img{
+		border:1px solid #ddd;
+		border-radius: 3px;
+		max-width:100%;
+		box-sizing:border-box;
+	}
+}
+
+#hoverNav{display:none!important;}
+
+
 hr{border-top-color:#D4D4D4}
 h1,h2,h3,h4,h5,h6{
   font-weight:300;
@@ -175,7 +191,7 @@ a{
   &:hover{
     color:white;
   }
-      
+
   &.gray{
     background-color:$gray;
     color:$primary;
@@ -192,7 +208,7 @@ header#navheader{
   .btn-primary{
     margin:11px;
   }
-  
+
   ul.nav.navbar-nav{
     &>li{
       &.active a{
@@ -253,7 +269,7 @@ header#navheader{
   color:white;
   padding:5px 0;
   h4{font-weight:lighter;}
-  
+
   ul.subnav{
     @media(max-width:$screen-sm-min){
       &>li{
@@ -286,7 +302,7 @@ header#navheader{
 }
 
 .header-mobile{
-  
+
   height: 55px;
   position: fixed;
   right: 0;
@@ -304,11 +320,11 @@ header#navheader{
   -webkit-transition: left 0.5s;
   margin: 0px 0 0 0px;
   left: 0;
-  
+
   &.mobile_nav_open{
     left:$mobile_menu_width * -1;
   }
-  
+
   a.brand img{
     margin-left:12px;
     margin-top:5px;
@@ -346,11 +362,11 @@ header#navheader{
   transition:right 0.5s;
   -moz-transition:right 0.5s;
   -webkit-transition:right 0.5s;
-  
+
   @media (max-width: 768px){
     padding-top: 59px;
   }
-  
+
   &.mobile_nav_open{
     right:$mobile_menu_width;
     box-shadow: 0 0px 15px rgba(0,0,0,.3);
@@ -372,12 +388,12 @@ ul.mobile_nav{
     top:46px;
   }
 
-  
+
   li{
     width: $mobile_menu_width;
     border-bottom: 1px solid $gray;
-    margin-left:auto;    
-    
+    margin-left:auto;
+
     &>a{
       display: block;
       padding: 12px 5px 12px 15px;
@@ -410,11 +426,11 @@ ul.mobile_nav{
   text-align:center;
   background: #ddd;
   margin-bottom:5px;
-  
+
   @media(max-width:$screen-xs-max){
     height:420px;
   }
-  
+
   .jumbotron{
     height:100%;
     width:100%;
@@ -424,7 +440,7 @@ ul.mobile_nav{
     color:white;
     top:0;
     margin-bottom:0px;
-    
+
     h1{
       font-family:"RalewaySemiBold";
       font-weight:700;
@@ -448,7 +464,7 @@ ul.mobile_nav{
         font-size:21px;
       }
     }
-    
+
     &.jumbotron_home{
       padding:0;
       @media(max-width:$screen-sm){
@@ -460,7 +476,7 @@ ul.mobile_nav{
         }
       }
     }
-    
+
     .btn-primary{font-size:21px;padding:10px 35px;}
   }
 }
@@ -537,8 +553,8 @@ table.image_grid{
   .btn{
     padding:10px 25px;
   }
-  
-  
+
+
   @media(max-width:768px){
     padding-left:20px;
     padding-right:20px;
@@ -577,7 +593,7 @@ table.image_grid{
   }
 }
 #three_features{
-  
+
   .features{
     text-align:center;
     margin-bottom:60px;
@@ -660,26 +676,26 @@ body.front-page section{
       margin:20px 0;
     }
   }
-  
+
   .illustration{
     text-align:center;
     img{
       max-width:100%;
       height:auto;
-      
+
     }
   }
-  
+
   &#benefit-2{
     background-image: url('../images/macro-tool.png');
     background-repeat: no-repeat;
     background-position: right;
-    
+
     @media(max-width:$screen-sm){
       background-image: none;
     }
   }
-  
+
   &.pullquote{
     margin:30px 0;
     .pullquote-image{
@@ -704,7 +720,7 @@ section.layout-full-width_call-to-action{
 
 section.layout-image_grid{
   background:#f4f4f4;
-  
+
   .image_grid_gallery{
     margin:25px 0;
     a.gallery_item{
@@ -715,13 +731,13 @@ section.layout-image_grid{
       border-radius: 5px;
       background-color: white;
       @include transition(.4s);
-      
+
       &:hover{
         border: 1px solid lighten($blue,10);
         background-color: #f6f6f6;
         box-shadow:0 0 6px rgba(0,0,0,.2);
       }
-      
+
       img{width:200px;height:200px;}
     }
   }
@@ -818,13 +834,13 @@ aside.sidebar .menu-main-navigation-container{
 }
 
 #sidebar{
-  
+
 }
 
 /* Logo Slider */
 .centered_leadin{
   text-align:center;
-  
+
   h2{
     font-weight:lighter;
     margin-top:35px;
@@ -848,7 +864,7 @@ aside.sidebar .menu-main-navigation-container{
     height:160px;
     line-height: 160px;
     text-align: center;
-    
+
     img{display:inline-block;}
   }
 
@@ -924,7 +940,7 @@ footer{
     padding-top:25px;
     border-top:1px solid #ccc;
     font-size: 12px;
-    
+
     a{
       position:relative;
       margin:0 0 0 50px;

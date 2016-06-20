@@ -42,17 +42,59 @@
           $("#sitewrap").toggleClass('mobile_nav_open');
           $(".header-mobile").toggleClass('mobile_nav_open');
         });
-  
-          
-        
-        
-        
+
+
+
+
+
         /*setTimeout(function () {
           $(".image_grid .ig_animated img").css('opacity',0);
         }, 10000);*/
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+
+          "use strict";
+
+          var $container = [$('.isotope_wrapper')];
+
+          jQuery.each($container, function (j, obj) {
+              var wall = this.children('.isotope_grid_gallery').isotope({
+                itemSelector : '.element-item'
+              });
+
+              wall.imagesLoaded().progress( function() {
+                wall.isotope('layout');
+              });
+
+              //Initialize filter links for each option set
+              jQuery.each(this.find('.option-set'), function (index, object) {
+                  var $optionLinks = jQuery(this).find('button');
+                  $optionLinks.click(function () {
+                      var $this = $(this), $optionSet = $this.parents('.option-set'), options = {},
+                          key = $optionSet.attr('data-option-key'),
+                          value = $this.attr('data-option-value'),
+                          target = $this.attr('data-target');
+                          
+                      // don't proceed if already selected
+                      if ($this.hasClass('active')) {
+                        return false;
+                      }
+
+                      $optionSet.find('.active').removeClass('active');
+                      $this.addClass('active');
+
+                      // parse 'false' as false boolean
+                      value = value === 'false' ? false : value;
+                      options[key] = value;
+
+                      jQuery("#"+target).children('.isotope_grid_gallery').isotope(options);
+                      return false;
+                  });
+              });
+          });
+
+
       }
     },
     // Home page

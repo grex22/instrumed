@@ -64,7 +64,7 @@ function my_password_form() {
     global $post;
     $label = 'pwbox-'.( empty( $post->ID ) ? rand() : $post->ID );
     $o = '<form action="' . esc_url( site_url( 'wp-login.php?action=postpass', 'login_post' ) ) . '" method="post">
-    ' . __( "<p><strong>If your company is ISO 13485 or ISO 9001 certified (or equivalent) you may disregard the survey and instead send a copy of your certificate to your Instru-med representative</strong></p><p>Our supplier survey is password protected. To gain access to this form, enter the password below. If you do not have this password, please contact your Instru-med representative.</p>" ) . '
+    ' . __( "<p>Our supplier survey is password protected. To gain access to this form, enter the password below. If you do not have this password, please contact your Instru-med representative.</p>" ) . '
     <p><label for="' . $label . '">' . __( "Password:" ) . ' </label><input name="post_password" id="' . $label . '" type="password" size="20" maxlength="20" /><input type="submit" name="Submit" value="' . esc_attr__( "Submit" ) . '" />
     </p></form>
     ';
