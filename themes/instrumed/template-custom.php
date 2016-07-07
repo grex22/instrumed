@@ -163,10 +163,10 @@
 
                             if($group_name_array && shuffle($image_array)):
                               echo '<div class="isotope_wrapper" id="isotope_id_'.sanitize_title($iso_title).'">';
-                                echo '<div class="btn-group filter-button-group option-set" data-option-key="filter">';
-                                echo '<button data-option-value="*" data-target="isotope_id_'.sanitize_title($iso_title).'" class="btn active btn-default">All</button>';
+                                echo '<div class="filter-button-group option-set" data-option-key="filter">';
+                                echo '<button data-option-value="*" data-target="isotope_id_'.sanitize_title($iso_title).'" class="btn active btn-default btn-sm">All</button>';
                                 foreach($group_name_array as $grp):
-                                  echo '<button data-option-value=".'.sanitize_title($grp).'" data-target="isotope_id_'.sanitize_title($iso_title).'" class="btn btn-default">'.$grp.'</button>';
+                                  echo '<button data-option-value=".'.sanitize_title($grp).'" data-target="isotope_id_'.sanitize_title($iso_title).'" class="btn btn-default btn-sm">'.$grp.'</button>';
                                 endforeach;
                                 echo "</div><br><br>";
                                 echo "<div class='isotope_grid_gallery' id='isotope_".sanitize_title($iso_title)."'>";
