@@ -32,7 +32,8 @@
     </div>
     <div class="row legalrow">
       <div class="col-sm-6">
-        &copy; <?php echo date("Y");?> Instru-medical Technologies
+        &copy; <?php echo date("Y");?> Instru-medical Technologies<br>
+        Site design and development by <a href="http://ripfish.com" title="Indiana Web Development">RipFish Interactive</a>
       </div>
       <div class="col-sm-6 text-right">
         <a href="<?php echo get_permalink(142); ?>">Privacy Policy</a>
