@@ -955,7 +955,7 @@ footer{
     border-top:1px solid #ccc;
     font-size: 12px;
 
-    a{
+    a.spaceme{
       position:relative;
       margin:0 0 0 50px;
       &+a:before{
@@ -965,6 +965,7 @@ footer{
       }
     }
   }
+  .widget_text{background:transparent;}
 }
 
 
