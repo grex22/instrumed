@@ -99,7 +99,7 @@ use Roots\Sage\Wrapper;
       <div class="row more_padded screen-sm-text-center">
         <div class="col-md-6">
           <h2 class="blue">Instru-med in Social Media</h2>
-          <p class="highlighted">Follow Instru-med for the latest updates and news from the orthopedics capital of the world, Warsaw, Indiana!</p>
+          <p class="highlighted">Follow Instru-med for the latest updates and news from the &quot;Orthopedic Capital of the World&quot;</p>
           <p class="highlighted">Find us on the following social networks:</p>
           <div class="btn-group btn-group-social">
             <?php
@@ -241,24 +241,19 @@ use Roots\Sage\Wrapper;
       do_action('get_footer');
       get_template_part('templates/footer');
       wp_footer();
-    ?><script>
-
+    ?>
+    
+    <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-73517902-1', 'auto');
-
       ga('send', 'pageview');
 
-
-
-    </script>
+    </script>   
+    
+    
   </body>
 </html>
