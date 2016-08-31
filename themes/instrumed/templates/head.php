@@ -9,6 +9,6 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   <?php wp_head(); ?>
-  <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
-  <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
 </head>
